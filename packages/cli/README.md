@@ -1,6 +1,6 @@
 # ctx7
 
-CLI for [Context7](https://context7.com) - query up-to-date library documentation and manage AI coding skills.
+CLI for [Contex7Arwaky](https://contex7-arwaky.com) - query up-to-date library documentation and manage AI coding skills.
 
 Skills are reusable prompt instructions that enhance your AI coding assistant with specialized capabilities like working with specific frameworks, libraries, or coding patterns.
 
@@ -17,7 +17,7 @@ npm install -g ctx7
 ## Quick Start
 
 ```bash
-# Set up Context7 MCP for your coding agents
+# Set up Contex7Arwaky MCP for your coding agents
 ctx7 setup
 
 # Target a specific agent
@@ -58,7 +58,7 @@ ctx7 skills list --claude
 
 ### Find a library
 
-Resolve a library name to a Context7 library ID.
+Resolve a library name to a Contex7Arwaky library ID.
 
 ```bash
 ctx7 library react
@@ -71,7 +71,7 @@ ctx7 library react --json
 
 ### Query documentation
 
-Fetch documentation for a specific library using its Context7 ID.
+Fetch documentation for a specific library using its Contex7Arwaky ID.
 
 ```bash
 ctx7 docs /facebook/react "useEffect cleanup"
@@ -84,7 +84,7 @@ ctx7 docs /facebook/react "hooks" --json
 
 ### Setup
 
-Configure Context7 MCP and a rule for your AI coding agents. Authenticates via OAuth, generates an API key, and writes the config.
+Configure Contex7Arwaky MCP and a rule for your AI coding agents. Authenticates via OAuth, generates an API key, and writes the config.
 
 ```bash
 # Interactive (prompts for agent selection)
@@ -256,4 +256,4 @@ export CTX7_TELEMETRY_DISABLED=1
 
 ## Learn More
 
-Visit [context7.com](https://context7.com) to browse the skills registry and discover available skills.
+Visit [contex7-arwaky.com](https://contex7-arwaky.com) to browse the skills registry and discover available skills.

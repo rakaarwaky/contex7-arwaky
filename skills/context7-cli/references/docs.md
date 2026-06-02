@@ -1,12 +1,12 @@
 # Documentation Commands
 
-Retrieves and queries up-to-date documentation and code examples from Context7 for any programming library or framework. Two-step workflow: resolve the library name to get its ID, then query docs using that ID.
+Retrieves and queries up-to-date documentation and code examples from Contex7Arwaky for any programming library or framework. Two-step workflow: resolve the library name to get its ID, then query docs using that ID.
 
 If the user already provided a library ID in `/org/project` or `/org/project/version` format, pass it directly to `ctx7 docs`.
 
 ## Step 1: Resolve a Library
 
-Resolves a package/product name to a Context7-compatible library ID and returns matching libraries.
+Resolves a package/product name to a Contex7Arwaky-compatible library ID and returns matching libraries.
 
 ```bash
 ctx7 library react "How to clean up useEffect with async operations"
@@ -20,7 +20,7 @@ Always pass a `query` argument — it is required and directly affects result ra
 
 Each result includes:
 
-- **Library ID** — Context7-compatible identifier (format: `/org/project`)
+- **Library ID** — Contex7Arwaky-compatible identifier (format: `/org/project`)
 - **Name** — Library or package name
 - **Description** — Short summary
 - **Code Snippets** — Number of available code examples
@@ -66,7 +66,7 @@ ctx7 library react "How to use hooks for state management" --json | jq '.[0].id'
 
 Retrieves up-to-date documentation and code examples for the resolved library.
 
-You must call `ctx7 library` first to obtain the exact Context7-compatible library ID required to use this command, UNLESS the user explicitly provides a library ID in the format `/org/project` or `/org/project/version`.
+You must call `ctx7 library` first to obtain the exact Contex7Arwaky-compatible library ID required to use this command, UNLESS the user explicitly provides a library ID in the format `/org/project` or `/org/project/version`.
 
 ```bash
 ctx7 docs /facebook/react "How to clean up useEffect with async operations"

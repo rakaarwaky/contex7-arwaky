@@ -1,8 +1,8 @@
-# Context7 MCP - Актуальная документация для любого промпта
+# Contex7Arwaky MCP - Актуальная документация для любого промпта
 
-[![Website](https://img.shields.io/badge/Website-context7.com-blue)](https://context7.com) [![smithery badge](https://smithery.ai/badge/@upstash/context7-mcp)](https://smithery.ai/server/@upstash/context7-mcp) [<img alt="Install in VS Code (npx)" src="https://img.shields.io/badge/VS_Code-VS_Code?style=flat-square&label=Install%20Context7%20MCP&color=0098FF">](https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%7B%22name%22%3A%22context7%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40upstash%2Fcontext7-mcp%40latest%22%5D%7D)
+[![Website](https://img.shields.io/badge/Website-contex7-arwaky.com-blue)](https://contex7-arwaky.com) [![smithery badge](https://smithery.ai/badge/@upstash/contex7-arwaky-mcp)](https://smithery.ai/server/@upstash/contex7-arwaky-mcp) [<img alt="Install in VS Code (npx)" src="https://img.shields.io/badge/VS_Code-VS_Code?style=flat-square&label=Install%20Contex7Arwaky%20MCP&color=0098FF">](https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%7B%22name%22%3A%22contex7-arwaky%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40upstash%2Fcontex7-arwaky-mcp%40latest%22%5D%7D)
 
-## ❌ Без Context7
+## ❌ Без Contex7Arwaky
 
 LLMs полагаются на устаревшую или обобщённую информацию о библиотеках, с которыми вы работаете. В результате этого вы получаете:
 
@@ -10,23 +10,23 @@ LLMs полагаются на устаревшую или обобщённую 
 - ❌ Выдуманные API, которые даже не существуют
 - ❌ Обобщённые ответы для старых библиотек
 
-## ✅ С Context7
+## ✅ С Contex7Arwaky
 
-Context7 MCP получает актуальную документацию и примеры кода, строго соответствующие нужной версии, прямо из исходных источников и вставляет их прямо в ваш промпт.
-Добавьте строку `use context7` в промпт для Cursor:
+Contex7Arwaky MCP получает актуальную документацию и примеры кода, строго соответствующие нужной версии, прямо из исходных источников и вставляет их прямо в ваш промпт.
+Добавьте строку `use contex7-arwaky` в промпт для Cursor:
 
 ```txt
-Создай базовый Next.js проект с маршрутизатором приложений. Use context7
+Создай базовый Next.js проект с маршрутизатором приложений. Use contex7-arwaky
 ```
 
 ```txt
-Создай скрипт, удаляющий строки, где город равен "", используя учётные данные PostgreSQL. Use context7
+Создай скрипт, удаляющий строки, где город равен "", используя учётные данные PostgreSQL. Use contex7-arwaky
 ```
 
-Context7 MCP подгружает свежие примеры кода и документацию из источников прямо в контекст вашей LLM.
+Contex7Arwaky MCP подгружает свежие примеры кода и документацию из источников прямо в контекст вашей LLM.
 
 - 1️⃣ Напишите свой промпт так, как писали его всегда
-- 2️⃣ Добавьте к промпту `use context7`
+- 2️⃣ Добавьте к промпту `use contex7-arwaky`
 - 3️⃣ Получите работающий результат
   Никакого переключения между вкладками, выдуманного API или устаревшего кода.
 
@@ -39,10 +39,10 @@ Context7 MCP подгружает свежие примеры кода и док
 
 ### Установка через Smithery
 
-Воспользуйтесь [Smithery](https://smithery.ai/server/@upstash/context7-mcp), чтобы автоматически установить MCP сервер Context7 для Claude Desktop:
+Воспользуйтесь [Smithery](https://smithery.ai/server/@upstash/contex7-arwaky-mcp), чтобы автоматически установить MCP сервер Contex7Arwaky для Claude Desktop:
 
 ```bash
-npx -y @smithery/cli install @upstash/context7-mcp --client claude
+npx -y @smithery/cli install @upstash/contex7-arwaky-mcp --client claude
 ```
 
 ### Установка в Cursor
@@ -53,9 +53,9 @@ npx -y @smithery/cli install @upstash/context7-mcp --client claude
 ```json
 {
   "mcpServers": {
-    "context7": {
+    "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/context7-mcp"]
+      "args": ["-y", "@upstash/contex7-arwaky-mcp"]
     }
   }
 }
@@ -67,9 +67,9 @@ npx -y @smithery/cli install @upstash/context7-mcp --client claude
 ```json
 {
   "mcpServers": {
-    "context7": {
+    "contex7-arwaky": {
       "command": "bunx",
-      "args": ["-y", "@upstash/context7-mcp"]
+      "args": ["-y", "@upstash/contex7-arwaky-mcp"]
     }
   }
 }
@@ -82,9 +82,9 @@ npx -y @smithery/cli install @upstash/context7-mcp --client claude
 ```json
 {
   "mcpServers": {
-    "context7": {
+    "contex7-arwaky": {
       "command": "deno",
-      "args": ["run", "--allow-env", "--allow-net", "npm:@upstash/context7-mcp"]
+      "args": ["run", "--allow-env", "--allow-net", "npm:@upstash/contex7-arwaky-mcp"]
     }
   }
 }
@@ -96,39 +96,39 @@ npx -y @smithery/cli install @upstash/context7-mcp --client claude
 ```json
 {
   "mcpServers": {
-    "context7": {
+    "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/context7-mcp"]
+      "args": ["-y", "@upstash/contex7-arwaky-mcp"]
     }
   }
 }
 ```
 
 ### Установка в VS Code
-[<img alt="Установка в VS Code (npx)" src="https://img.shields.io/badge/VS_Code-VS_Code?style=flat-square&label=Установить%20Context7%20MCP&color=0098FF">](https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%7B%22name%22%3A%22context7%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40upstash%2Fcontext7-mcp%40latest%22%5D%7D)
-[<img alt="Установка в VS Code Insiders (npx)" src="https://img.shields.io/badge/VS_Code_Insiders-VS_Code_Insiders?style=flat-square&label=Установить%20Context7%20MCP&color=24bfa5">](https://insiders.vscode.dev/redirect?url=vscode-insiders%3Amcp%2Finstall%3F%7B%22name%22%3A%22context7%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40upstash%2Fcontext7-mcp%40latest%22%5D%7D)
-Добавьте следующие строки в ваш конфигурационный файл VS Code MCP. Смотрите [документацию VS Code MCP](https://code.visualstudio.com/docs/copilot/chat/mcp-servers) для получения дополнительной информации.
+[<img alt="Установка в VS Code (npx)" src="https://img.shields.io/badge/VS_Code-VS_Code?style=flat-square&label=Установить%20Contex7Arwaky%20MCP&color=0098FF">](https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%7B%22name%22%3A%22contex7-arwaky%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40upstash%2Fcontex7-arwaky-mcp%40latest%22%5D%7D)
+[<img alt="Установка в VS Code Insiders (npx)" src="https://img.shields.io/badge/VS_Code_Insiders-VS_Code_Insiders?style=flat-square&label=Установить%20Contex7Arwaky%20MCP&color=24bfa5">](https://insiders.vscode.dev/redirect?url=vscode-insiders%3Amcp%2Finstall%3F%7B%22name%22%3A%22contex7-arwaky%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40upstash%2Fcontex7-arwaky-mcp%40latest%22%5D%7D)
+Добавьте следующие строки в ваш конфигурационный файл VS Code MCP. Смотрите [документацию VS Code MCP](https://code.visualstudio.com/docs/copilot/chat/mcp-arwaky) для получения дополнительной информации.
 ```json
 {
   "servers": {
-    "Context7": {
+    "Contex7Arwaky": {
       "type": "stdio",
       "command": "npx",
-      "args": ["-y", "@upstash/context7-mcp"]
+      "args": ["-y", "@upstash/contex7-arwaky-mcp"]
     }
   }
 }
 ```
 
 ### Установка in Zed
-Можно установить через [Zed расширение](https://zed.dev/extensions?query=Context7) или добавить следующие строки в `settings.json`. Смотрите [документацию Zed Context Server](https://zed.dev/docs/assistant/context-servers) для получения дополнительной информации.
+Можно установить через [Zed расширение](https://zed.dev/extensions?query=Contex7Arwaky) или добавить следующие строки в `settings.json`. Смотрите [документацию Zed Context Server](https://zed.dev/docs/assistant/context-servers) для получения дополнительной информации.
 ```json
 {
   "context_servers": {
-    "Context7": {
+    "Contex7Arwaky": {
       "source": "custom",
       "command": "npx",
-      "args": ["-y", "@upstash/context7-mcp", "--api-key", "YOUR_API_KEY"]
+      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
     }
   }
 }
@@ -137,7 +137,7 @@ npx -y @smithery/cli install @upstash/context7-mcp --client claude
 ### Установка в Claude Code
 Запустите следующую команду для установки. Смотрите [документацию Claude Code MCP](https://docs.anthropic.com/ru/docs/claude-code/mcp) для получения дополнительной информации.
 ```sh
-claude mcp add --scope user context7 -- npx -y @upstash/context7-mcp
+claude mcp add --scope user contex7-arwaky -- npx -y @upstash/contex7-arwaky-mcp
 ```
 
 ### Установка в Claude Desktop
@@ -145,9 +145,9 @@ claude mcp add --scope user context7 -- npx -y @upstash/context7-mcp
 ```json
 {
   "mcpServers": {
-    "Context7": {
+    "Contex7Arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/context7-mcp"]
+      "args": ["-y", "@upstash/contex7-arwaky-mcp"]
     }
   }
 }
@@ -158,8 +158,8 @@ claude mcp add --scope user context7 -- npx -y @upstash/context7-mcp
 ```json
 {
   "mcpServers": {
-    "context7": {
-      "args": ["-y", "@upstash/context7-mcp"],
+    "contex7-arwaky": {
+      "args": ["-y", "@upstash/contex7-arwaky-mcp"],
       "command": "npx"
     }
   }
@@ -171,9 +171,9 @@ claude mcp add --scope user context7 -- npx -y @upstash/context7-mcp
 ```json
 {
   "mcpServers": {
-    "context7": {
+    "contex7-arwaky": {
       "type": "http",
-      "url": "https://mcp.context7.com/mcp",
+      "url": "https://mcp.contex7-arwaky.com/mcp",
       "tools": ["query-docs", "resolve-library-id"]
     }
   }
@@ -187,9 +187,9 @@ claude mcp add --scope user context7 -- npx -y @upstash/context7-mcp
 ```json
 {
   "mcpServers": {
-    "context7": {
+    "contex7-arwaky": {
       "type": "http",
-      "url": "https://mcp.context7.com/mcp",
+      "url": "https://mcp.contex7-arwaky.com/mcp",
       "headers": {
         "CONTEXT7_API_KEY": "YOUR_API_KEY"
       },
@@ -202,11 +202,11 @@ claude mcp add --scope user context7 -- npx -y @upstash/context7-mcp
 ```json
 {
   "mcpServers": {
-    "context7": {
+    "contex7-arwaky": {
       "type": "local",
       "command": "npx",
       "tools": ["query-docs", "resolve-library-id"],
-      "args": ["-y", "@upstash/context7-mcp", "--api-key", "YOUR_API_KEY"]
+      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
     }
   }
 }
@@ -224,17 +224,17 @@ claude mcp add --scope user context7 -- npx -y @upstash/context7-mcp
    FROM node:18-alpine
    WORKDIR /app
    # Установите последнюю версию пакета глобально
-   RUN npm install -g @upstash/context7-mcp
+   RUN npm install -g @upstash/contex7-arwaky-mcp
    # Откройте стандартный порт, если это необходимо (необязательно, это зависит от взаимодействия с MCP клиентом)
    # EXPOSE 3000
    # Стандартная команда для запуска сервера
-   CMD ["context7-mcp"]
+   CMD ["contex7-arwaky-mcp"]
    ```
    </details>
 
-   Затем, соберите образ, используя тег (например, `context7-mcp`). **Убедитесь, что Docker Desktop (или демон Docker) работает.** Запустите следующую команду в этой же директории, где сохранён `Dockerfile`:
+   Затем, соберите образ, используя тег (например, `contex7-arwaky-mcp`). **Убедитесь, что Docker Desktop (или демон Docker) работает.** Запустите следующую команду в этой же директории, где сохранён `Dockerfile`:
    ```bash
-   docker build -t context7-mcp .
+   docker build -t contex7-arwaky-mcp .
    ```
 2. **Настройте ваш MCP клиент:**
    Обновите вашу конфигурацию MCP клиента, чтобы использовать Docker команду.
@@ -247,7 +247,7 @@ claude mcp add --scope user context7 -- npx -y @upstash/context7-mcp
          "disabled": false,
          "timeout": 60,
          "command": "docker",
-         "args": ["run", "-i", "--rm", "context7-mcp"],
+         "args": ["run", "-i", "--rm", "contex7-arwaky-mcp"],
          "transportType": "stdio"
        }
      }
@@ -260,9 +260,9 @@ claude mcp add --scope user context7 -- npx -y @upstash/context7-mcp
 ```json
 {
   "mcpServers": {
-    "github.com/upstash/context7-mcp": {
+    "github.com/upstash/contex7-arwaky-mcp": {
       "command": "cmd",
-      "args": ["/c", "npx", "-y", "@upstash/context7-mcp"],
+      "args": ["/c", "npx", "-y", "@upstash/contex7-arwaky-mcp"],
       "disabled": false,
       "autoApprove": []
     }
@@ -271,11 +271,11 @@ claude mcp add --scope user context7 -- npx -y @upstash/context7-mcp
 ```
 
 ### Доступные инструменты
-- `resolve-library-id`: преобразует общее название библиотеки в совместимый с Context7 идентификатор.
+- `resolve-library-id`: преобразует общее название библиотеки в совместимый с Contex7Arwaky идентификатор.
   - `query` (обязательно): вопрос или задача пользователя (для ранжирования по релевантности)
   - `libraryName` (обязательно): название библиотеки для поиска
-- `query-docs`: получает документацию по библиотеке по совместимому с Context7 идентификатору.
-  - `libraryId` (обязательно): точный совместимый с Context7 идентификатор (например, `/mongodb/docs`, `/vercel/next.js`)
+- `query-docs`: получает документацию по библиотеке по совместимому с Contex7Arwaky идентификатору.
+  - `libraryId` (обязательно): точный совместимый с Contex7Arwaky идентификатор (например, `/mongodb/docs`, `/vercel/next.js`)
   - `query` (обязательно): вопрос или задача для получения релевантной документации
 
 ## Разработка
@@ -292,9 +292,9 @@ pnpm run build
 ```json
 {
   "mcpServers": {
-    "context7": {
+    "contex7-arwaky": {
       "command": "npx",
-      "args": ["tsx", "/path/to/folder/context7-mcp/src/index.ts"]
+      "args": ["tsx", "/path/to/folder/contex7-arwaky-mcp/src/index.ts"]
     }
   }
 }
@@ -302,7 +302,7 @@ pnpm run build
 
 ### Тестирование с помощью инспектора MCP
 ```bash
-npx -y @modelcontextprotocol/inspector npx @upstash/context7-mcp
+npx -y @modelcontextprotocol/inspector npx @upstash/contex7-arwaky-mcp
 ```
 
 ## Решение проблем
@@ -312,9 +312,9 @@ npx -y @modelcontextprotocol/inspector npx @upstash/context7-mcp
 ```json
 {
   "mcpServers": {
-    "context7": {
+    "contex7-arwaky": {
       "command": "bunx",
-      "args": ["-y", "@upstash/context7-mcp"]
+      "args": ["-y", "@upstash/contex7-arwaky-mcp"]
     }
   }
 }
@@ -326,9 +326,9 @@ npx -y @modelcontextprotocol/inspector npx @upstash/context7-mcp
 ```json
 {
   "mcpServers": {
-    "context7": {
+    "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "--node-options=--experimental-vm-modules", "@upstash/context7-mcp"]
+      "args": ["-y", "--node-options=--experimental-vm-modules", "@upstash/contex7-arwaky-mcp"]
     }
   }
 }
@@ -339,9 +339,9 @@ npx -y @modelcontextprotocol/inspector npx @upstash/context7-mcp
 ```json
 {
   "mcpServers": {
-    "context7": {
+    "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "--node-options=--experimental-fetch", "@upstash/context7-mcp"]
+      "args": ["-y", "--node-options=--experimental-fetch", "@upstash/contex7-arwaky-mcp"]
     }
   }
 }
@@ -354,28 +354,28 @@ npx -y @modelcontextprotocol/inspector npx @upstash/context7-mcp
 4. Убедитесь, что используете версию Node v18 или выше, чтобы `npx` поддерживал встроенный `fetch`.
 
 ## Отказ от ответственности
-Проекты Context7 создаются сообществом. Мы стремимся поддерживать высокое качество, однако не можем гарантировать точность, полноту или безопасность всей документации по библиотекам. Проекты, представленные в Context7, разрабатываются и поддерживаются их авторами, а не командой Context7.
+Проекты Contex7Arwaky создаются сообществом. Мы стремимся поддерживать высокое качество, однако не можем гарантировать точность, полноту или безопасность всей документации по библиотекам. Проекты, представленные в Contex7Arwaky, разрабатываются и поддерживаются их авторами, а не командой Contex7Arwaky.
 Если вы столкнётесь с подозрительным, неуместным или потенциально вредоносным контентом, пожалуйста, воспользуйтесь кнопкой "Report" на странице проекта, чтобы немедленно сообщить нам. Мы внимательно относимся ко всем обращениям и оперативно проверяем помеченные материалы, чтобы обеспечить надёжность и безопасность платформы.
-Используя Context7, вы признаёте, что делаете это по собственному усмотрению и на свой страх и риск.
+Используя Contex7Arwaky, вы признаёте, что делаете это по собственному усмотрению и на свой страх и риск.
 
 ## Оставайтесь с нами на связи
 Будьте в курсе последних новостей на наших платформах:
 - 📢 Следите за нашими новостями на [X](https://x.com/contextai), чтобы быть в курсе последних новостей
-- 🌐 Загляните на наш [сайт](https://context7.com)
+- 🌐 Загляните на наш [сайт](https://contex7-arwaky.com)
 - 💬 При желании присоединяйтесь к нашему [сообществу в Discord](https://upstash.com/discord)
 
-## Context7 в СМИ
+## Contex7Arwaky в СМИ
 - [Better Stack: "Бесплатный инструмент делает Cursor в 10 раз умнее"](https://youtu.be/52FC3qObp9E)
 - [Cole Medin: "Это, без сомнения, ЛУЧШИЙ MCP-сервер для AI-помощников в коде"](https://www.youtube.com/watch?v=G7gK8H6u7Rs)
-- [Income stream surfers: "Context7 + SequentialThinking MCPs: Это уже AGI?"](https://www.youtube.com/watch?v=-ggvzyLpK6o)
-- [Julian Goldie SEO: "Context7: обновление MCP-агента"](https://www.youtube.com/watch?v=CTZm6fBYisc)
+- [Income stream surfers: "Contex7Arwaky + SequentialThinking MCPs: Это уже AGI?"](https://www.youtube.com/watch?v=-ggvzyLpK6o)
+- [Julian Goldie SEO: "Contex7Arwaky: обновление MCP-агента"](https://www.youtube.com/watch?v=CTZm6fBYisc)
 - [JeredBlu: "Context 7 MCP: мгновенный доступ к документации + настройка для VS Code"](https://www.youtube.com/watch?v=-ls0D-rtET4)
-- [Income stream surfers: "Context7: новый MCP-сервер, который изменит кодинг с ИИ"](https://www.youtube.com/watch?v=PS-2Azb-C3M)
-- [AICodeKing: "Context7 + Cline & RooCode: Этот MCP сервер делает CLINE в 100 раз ЭФФЕКТИВНЕЕ!"](https://www.youtube.com/watch?v=qZfENAPMnyo)
+- [Income stream surfers: "Contex7Arwaky: новый MCP-сервер, который изменит кодинг с ИИ"](https://www.youtube.com/watch?v=PS-2Azb-C3M)
+- [AICodeKing: "Contex7Arwaky + Cline & RooCode: Этот MCP сервер делает CLINE в 100 раз ЭФФЕКТИВНЕЕ!"](https://www.youtube.com/watch?v=qZfENAPMnyo)
 - [Sean Kochel: "5 MCP серверов для стремительного вайб-программирования (Подключи и Работай)"](https://www.youtube.com/watch?v=LqTQi8qexJM)
 
 ## История звёзд на GitHub
-[![График истории звёзд на GitHub](https://api.star-history.com/svg?repos=upstash/context7&type=Date)](https://www.star-history.com/#upstash/context7&Date)
+[![График истории звёзд на GitHub](https://api.star-history.com/svg?repos=upstash/contex7-arwaky&type=Date)](https://www.star-history.com/#upstash/contex7-arwaky&Date)
 
 ## Лицензия
 MIT

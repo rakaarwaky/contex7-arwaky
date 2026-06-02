@@ -1,4 +1,4 @@
-# @upstash/context7-sdk
+# @upstash/contex7-arwaky-sdk
 
 ## 0.3.0
 
@@ -21,8 +21,8 @@
 
 ### Minor Changes
 
-- 5e11d35: Initial release of the Context7 TypeScript SDK
-  - HTTP/REST client for the Context7 API
-  - `searchLibrary()` - Search for libraries in the Context7 database
+- 5e11d35: Initial release of the Contex7Arwaky TypeScript SDK
+  - HTTP/REST client for the Contex7Arwaky API
+  - `searchLibrary()` - Search for libraries in the Contex7Arwaky database
   - `getDocs()` - Retrieve documentation with filtering options
   - Environment variable support for API key configuration

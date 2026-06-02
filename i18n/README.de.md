@@ -1,8 +1,8 @@
-# Context7 MCP - Aktuelle Dokumentation für jeden Prompt
+# Contex7Arwaky MCP - Aktuelle Dokumentation für jeden Prompt
 
-[![Website](https://img.shields.io/badge/Website-context7.com-blue)](https://context7.com) [![smithery badge](https://smithery.ai/badge/@upstash/context7-mcp)](https://smithery.ai/server/@upstash/context7-mcp) [<img alt="In VS Code installieren (npx)" src="https://img.shields.io/badge/VS_Code-VS_Code?style=flat-square&label=Install%20Context7%20MCP&color=0098FF">](https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%7B%22name%22%3A%22context7%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40upstash%2Fcontext7-mcp%40latest%22%5D%7D)
+[![Website](https://img.shields.io/badge/Website-contex7-arwaky.com-blue)](https://contex7-arwaky.com) [![smithery badge](https://smithery.ai/badge/@upstash/contex7-arwaky-mcp)](https://smithery.ai/server/@upstash/contex7-arwaky-mcp) [<img alt="In VS Code installieren (npx)" src="https://img.shields.io/badge/VS_Code-VS_Code?style=flat-square&label=Install%20Contex7Arwaky%20MCP&color=0098FF">](https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%7B%22name%22%3A%22contex7-arwaky%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40upstash%2Fcontex7-arwaky-mcp%40latest%22%5D%7D)
 
-## ❌ Ohne Context7
+## ❌ Ohne Contex7Arwaky
 
 KI-Sprachmodelle (LLMs) greifen auf veraltete oder allgemeine Informationen über die von dir verwendeten Bibliotheken zurück. Das Ergebnis:
 
@@ -10,23 +10,23 @@ KI-Sprachmodelle (LLMs) greifen auf veraltete oder allgemeine Informationen übe
 - ❌ Halluzinierte APIs, die gar nicht existieren
 - ❌ Generische Antworten für alte Paketversionen
 
-## ✅ Mit Context7
+## ✅ Mit Contex7Arwaky
 
-Context7 MCP holt aktuelle, versionsspezifische Dokumentationen und Codebeispiele direkt aus der Quelle und fügt sie in deinen Prompt ein.
-Füge `use context7` zu deinem Prompt in Cursor hinzu:
+Contex7Arwaky MCP holt aktuelle, versionsspezifische Dokumentationen und Codebeispiele direkt aus der Quelle und fügt sie in deinen Prompt ein.
+Füge `use contex7-arwaky` zu deinem Prompt in Cursor hinzu:
 
 ```txt
-Erstelle ein einfaches Next.js-Projekt mit dem App Router. use context7
+Erstelle ein einfaches Next.js-Projekt mit dem App Router. use contex7-arwaky
 ```
 
 ```txt
-Erstelle ein Skript zum Löschen der Zeilen, in denen die Stadt "" ist, mit PostgreSQL-Anmeldedaten. use context7
+Erstelle ein Skript zum Löschen der Zeilen, in denen die Stadt "" ist, mit PostgreSQL-Anmeldedaten. use contex7-arwaky
 ```
 
-Context7 holt aktuelle Codebeispiele und Dokumentationen direkt in den Kontext deines LLMs.
+Contex7Arwaky holt aktuelle Codebeispiele und Dokumentationen direkt in den Kontext deines LLMs.
 
 - 1️⃣ Schreibe deinen Prompt auf natürliche Weise
-- 2️⃣ Weise das LLM an, context7 zu verwenden, mit `use context7`
+- 2️⃣ Weise das LLM an, contex7-arwaky zu verwenden, mit `use contex7-arwaky`
 - 3️⃣ Erhalte funktionierende Codeantworten
   Kein Tab-Switching, keine halluzinierten APIs, die nicht existieren, keine veralteten Code-Generierungen.
 
@@ -39,10 +39,10 @@ Context7 holt aktuelle Codebeispiele und Dokumentationen direkt in den Kontext d
 
 ### Installation über Smithery
 
-Um den Context7 MCP Server für Claude Desktop automatisch über [Smithery](https://smithery.ai/server/@upstash/context7-mcp) zu installieren:
+Um den Contex7Arwaky MCP Server für Claude Desktop automatisch über [Smithery](https://smithery.ai/server/@upstash/contex7-arwaky-mcp) zu installieren:
 
 ```bash
-npx -y @smithery/cli install @upstash/context7-mcp --client claude
+npx -y @smithery/cli install @upstash/contex7-arwaky-mcp --client claude
 ```
 
 ### Installation in Cursor
@@ -53,9 +53,9 @@ Der empfohlene Ansatz ist die folgende Konfiguration in deine Cursor-Datei `~/.c
 ```json
 {
   "mcpServers": {
-    "context7": {
+    "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/context7-mcp@latest"]
+      "args": ["-y", "@upstash/contex7-arwaky-mcp@latest"]
     }
   }
 }
@@ -67,9 +67,9 @@ Der empfohlene Ansatz ist die folgende Konfiguration in deine Cursor-Datei `~/.c
 ```json
 {
   "mcpServers": {
-    "context7": {
+    "contex7-arwaky": {
       "command": "bunx",
-      "args": ["-y", "@upstash/context7-mcp@latest"]
+      "args": ["-y", "@upstash/contex7-arwaky-mcp@latest"]
     }
   }
 }
@@ -82,9 +82,9 @@ Der empfohlene Ansatz ist die folgende Konfiguration in deine Cursor-Datei `~/.c
 ```json
 {
   "mcpServers": {
-    "context7": {
+    "contex7-arwaky": {
       "command": "deno",
-      "args": ["run", "--allow-net", "npm:@upstash/context7-mcp"]
+      "args": ["run", "--allow-net", "npm:@upstash/contex7-arwaky-mcp"]
     }
   }
 }
@@ -96,39 +96,39 @@ Füge dies zu deiner Windsurf MCP-Konfigurationsdatei hinzu. Siehe die [Windsurf
 ```json
 {
   "mcpServers": {
-    "context7": {
+    "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/context7-mcp@latest"]
+      "args": ["-y", "@upstash/contex7-arwaky-mcp@latest"]
     }
   }
 }
 ```
 
 ### Installation in VS Code
-[<img alt="In VS Code installieren (npx)" src="https://img.shields.io/badge/VS_Code-VS_Code?style=flat-square&label=Install%20Context7%20MCP&color=0098FF">](https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%7B%22name%22%3A%22context7%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40upstash%2Fcontext7-mcp%40latest%22%5D%7D)
-[<img alt="In VS Code Insiders installieren (npx)" src="https://img.shields.io/badge/VS_Code_Insiders-VS_Code_Insiders?style=flat-square&label=Install%20Context7%20MCP&color=24bfa5">](https://insiders.vscode.dev/redirect?url=vscode-insiders%3Amcp%2Finstall%3F%7B%22name%22%3A%22context7%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40upstash%2Fcontext7-mcp%40latest%22%5D%7D)
-Füge dies zu deiner VS Code MCP-Konfigurationsdatei hinzu. Siehe die [VS Code MCP Dokumentation](https://code.visualstudio.com/docs/copilot/chat/mcp-servers) für mehr Informationen.
+[<img alt="In VS Code installieren (npx)" src="https://img.shields.io/badge/VS_Code-VS_Code?style=flat-square&label=Install%20Contex7Arwaky%20MCP&color=0098FF">](https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%7B%22name%22%3A%22contex7-arwaky%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40upstash%2Fcontex7-arwaky-mcp%40latest%22%5D%7D)
+[<img alt="In VS Code Insiders installieren (npx)" src="https://img.shields.io/badge/VS_Code_Insiders-VS_Code_Insiders?style=flat-square&label=Install%20Contex7Arwaky%20MCP&color=24bfa5">](https://insiders.vscode.dev/redirect?url=vscode-insiders%3Amcp%2Finstall%3F%7B%22name%22%3A%22contex7-arwaky%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40upstash%2Fcontex7-arwaky-mcp%40latest%22%5D%7D)
+Füge dies zu deiner VS Code MCP-Konfigurationsdatei hinzu. Siehe die [VS Code MCP Dokumentation](https://code.visualstudio.com/docs/copilot/chat/mcp-arwaky) für mehr Informationen.
 ```json
 {
   "servers": {
-    "Context7": {
+    "Contex7Arwaky": {
       "type": "stdio",
       "command": "npx",
-      "args": ["-y", "@upstash/context7-mcp@latest"]
+      "args": ["-y", "@upstash/contex7-arwaky-mcp@latest"]
     }
   }
 }
 ```
 
 ### Installation in Zed
-Es kann über [Zed Extensions](https://zed.dev/extensions?query=Context7) installiert werden oder du kannst dies zu deiner Zed `settings.json` hinzufügen. Siehe die [Zed Context Server Dokumentation](https://zed.dev/docs/assistant/context-servers) für mehr Informationen.
+Es kann über [Zed Extensions](https://zed.dev/extensions?query=Contex7Arwaky) installiert werden oder du kannst dies zu deiner Zed `settings.json` hinzufügen. Siehe die [Zed Context Server Dokumentation](https://zed.dev/docs/assistant/context-servers) für mehr Informationen.
 ```json
 {
   "context_servers": {
-    "Context7": {
+    "Contex7Arwaky": {
       "source": "custom",
       "command": "npx",
-      "args": ["-y", "@upstash/context7-mcp", "--api-key", "YOUR_API_KEY"]
+      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
     }
   }
 }
@@ -137,7 +137,7 @@ Es kann über [Zed Extensions](https://zed.dev/extensions?query=Context7) instal
 ### Installation in Claude Code
 Führe diesen Befehl aus. Siehe die [Claude Code MCP Dokumentation](https://docs.anthropic.com/de/docs/claude-code/mcp) für mehr Informationen.
 ```sh
-claude mcp add --scope user context7 -- npx -y @upstash/context7-mcp@latest
+claude mcp add --scope user contex7-arwaky -- npx -y @upstash/contex7-arwaky-mcp@latest
 ```
 
 ### Installation in Claude Desktop
@@ -145,9 +145,9 @@ Füge dies zu deiner Claude Desktop `claude_desktop_config.json` Datei hinzu. Si
 ```json
 {
   "mcpServers": {
-    "Context7": {
+    "Contex7Arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/context7-mcp@latest"]
+      "args": ["-y", "@upstash/contex7-arwaky-mcp@latest"]
     }
   }
 }
@@ -158,9 +158,9 @@ Füge die folgende Konfiguration zum Abschnitt `mcp` deiner Copilot Coding Agent
 ```json
 {
   "mcpServers": {
-    "context7": {
+    "contex7-arwaky": {
       "type": "http",
-      "url": "https://mcp.context7.com/mcp",
+      "url": "https://mcp.contex7-arwaky.com/mcp",
       "tools": ["query-docs", "resolve-library-id"]
     }
   }
@@ -174,9 +174,9 @@ Weitere Informationen findest du in der [offiziellen GitHub-Dokumentation](https
 ```json
 {
   "mcpServers": {
-    "context7": {
+    "contex7-arwaky": {
       "type": "http",
-      "url": "https://mcp.context7.com/mcp",
+      "url": "https://mcp.contex7-arwaky.com/mcp",
       "headers": {
         "CONTEXT7_API_KEY": "YOUR_API_KEY"
       },
@@ -189,11 +189,11 @@ Oder für einen lokalen Server:
 ```json
 {
   "mcpServers": {
-    "context7": {
+    "contex7-arwaky": {
       "type": "local",
       "command": "npx",
       "tools": ["query-docs", "resolve-library-id"],
-      "args": ["-y", "@upstash/context7-mcp", "--api-key", "YOUR_API_KEY"]
+      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
     }
   }
 }
@@ -211,17 +211,17 @@ Wenn du den MCP-Server lieber in einem Docker-Container ausführen möchtest:
     FROM node:18-alpine
     WORKDIR /app
     # Installiere die neueste Version global
-    RUN npm install -g @upstash/context7-mcp@latest
+    RUN npm install -g @upstash/contex7-arwaky-mcp@latest
     # Port freigeben, falls nötig (optional, abhängig von der MCP-Client-Interaktion)
     # EXPOSE 3000
     # Standardbefehl zum Ausführen des Servers
-    CMD ["context7-mcp"]
+    CMD ["contex7-arwaky-mcp"]
     ```
     </details>
 
-    Baue dann das Image mit einem Tag (z.B. `context7-mcp`). **Stelle sicher, dass Docker Desktop (oder der Docker-Daemon) läuft.** Führe den folgenden Befehl in dem Verzeichnis aus, in dem du das `Dockerfile` gespeichert hast:
+    Baue dann das Image mit einem Tag (z.B. `contex7-arwaky-mcp`). **Stelle sicher, dass Docker Desktop (oder der Docker-Daemon) läuft.** Führe den folgenden Befehl in dem Verzeichnis aus, in dem du das `Dockerfile` gespeichert hast:
     ```bash
-    docker build -t context7-mcp .
+    docker build -t contex7-arwaky-mcp .
     ```
 2.  **Konfiguriere deinen MCP-Client:**
     Aktualisiere die Konfiguration deines MCP-Clients, um den Docker-Befehl zu verwenden.
@@ -234,7 +234,7 @@ Wenn du den MCP-Server lieber in einem Docker-Container ausführen möchtest:
           "disabled": false,
           "timeout": 60,
           "command": "docker",
-          "args": ["run", "-i", "--rm", "context7-mcp"],
+          "args": ["run", "-i", "--rm", "contex7-arwaky-mcp"],
           "transportType": "stdio"
         }
       }
@@ -243,11 +243,11 @@ Wenn du den MCP-Server lieber in einem Docker-Container ausführen möchtest:
     _Hinweis: Dies ist eine Beispielkonfiguration. Bitte beziehe dich auf die spezifischen Beispiele für deinen MCP-Client (wie Cursor, VS Code usw.), die weiter oben in dieser README beschrieben sind, um die Struktur anzupassen (z.B. `mcpServers` vs `servers`). Stelle außerdem sicher, dass der Bildname in `args` mit dem beim `docker build`-Befehl verwendeten Tag übereinstimmt._
 
 ### Verfügbare Tools
-- `resolve-library-id`: Löst einen allgemeinen Bibliotheksnamen in eine Context7-kompatible Bibliotheks-ID auf.
+- `resolve-library-id`: Löst einen allgemeinen Bibliotheksnamen in eine Contex7Arwaky-kompatible Bibliotheks-ID auf.
   - `query` (erforderlich): Die Frage oder Aufgabe des Benutzers (zur Relevanzranking)
   - `libraryName` (erforderlich): Der Name der zu suchenden Bibliothek
-- `query-docs`: Ruft die Dokumentation für eine Bibliothek mit einer Context7-kompatiblen Bibliotheks-ID ab.
-  - `libraryId` (erforderlich): Exakte Context7-kompatible Bibliotheks-ID (z.B. `/mongodb/docs`, `/vercel/next.js`)
+- `query-docs`: Ruft die Dokumentation für eine Bibliothek mit einer Contex7Arwaky-kompatiblen Bibliotheks-ID ab.
+  - `libraryId` (erforderlich): Exakte Contex7Arwaky-kompatible Bibliotheks-ID (z.B. `/mongodb/docs`, `/vercel/next.js`)
   - `query` (erforderlich): Die Frage oder Aufgabe, für die relevante Dokumentation abgerufen werden soll
 
 ## Entwicklung
@@ -264,9 +264,9 @@ pnpm run build
 ```json
 {
   "mcpServers": {
-    "context7": {
+    "contex7-arwaky": {
       "command": "npx",
-      "args": ["tsx", "/pfad/zum/ordner/context7-mcp/src/index.ts"]
+      "args": ["tsx", "/pfad/zum/ordner/contex7-arwaky-mcp/src/index.ts"]
     }
   }
 }
@@ -274,7 +274,7 @@ pnpm run build
 
 ### Testen mit MCP Inspector
 ```bash
-npx -y @modelcontextprotocol/inspector npx @upstash/context7-mcp@latest
+npx -y @modelcontextprotocol/inspector npx @upstash/contex7-arwaky-mcp@latest
 ```
 
 ## Fehlerbehebung
@@ -284,9 +284,9 @@ Wenn du diesen Fehler siehst, versuche `bunx` anstelle von `npx` zu verwenden.
 ```json
 {
   "mcpServers": {
-    "context7": {
+    "contex7-arwaky": {
       "command": "bunx",
-      "args": ["-y", "@upstash/context7-mcp@latest"]
+      "args": ["-y", "@upstash/contex7-arwaky-mcp@latest"]
     }
   }
 }
@@ -298,9 +298,9 @@ Wenn du einen Fehler wie `Error: Cannot find module 'uriTemplate.js'` bekommst, 
 ```json
 {
   "mcpServers": {
-    "context7": {
+    "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "--node-options=--experimental-vm-modules", "@upstash/context7-mcp@1.0.6"]
+      "args": ["-y", "--node-options=--experimental-vm-modules", "@upstash/contex7-arwaky-mcp@1.0.6"]
     }
   }
 }
@@ -313,18 +313,18 @@ Wenn du einen Fehler wie `Error: Cannot find module 'uriTemplate.js'` bekommst, 
 4. Stelle sicher, dass du Node v18 oder höher verwendest, um native Fetch-Unterstützung mit `npx` zu haben.
 
 ## Haftungsausschluss
-Context7-Projekte werden von der Community beigetragen, und obwohl wir uns bemühen, eine hohe Qualität aufrechtzuerhalten, können wir die Genauigkeit, Vollständigkeit oder Sicherheit aller Bibliotheksdokumentationen nicht garantieren. Die in Context7 aufgeführten Projekte werden von ihren jeweiligen Eigentümern entwickelt und gepflegt, nicht von Context7. Wenn du auf verdächtige, unangemessene oder potenziell schädliche Inhalte stößt, verwende bitte die Schaltfläche "Melden" auf der Projektseite, um uns sofort zu benachrichtigen. Wir nehmen alle Berichte ernst und werden gemeldete Inhalte umgehend überprüfen, um die Integrität und Sicherheit unserer Plattform zu gewährleisten. Durch die Nutzung von Context7 erkennst du an, dass du dies nach eigenem Ermessen und auf eigenes Risiko tust.
+Contex7Arwaky-Projekte werden von der Community beigetragen, und obwohl wir uns bemühen, eine hohe Qualität aufrechtzuerhalten, können wir die Genauigkeit, Vollständigkeit oder Sicherheit aller Bibliotheksdokumentationen nicht garantieren. Die in Contex7Arwaky aufgeführten Projekte werden von ihren jeweiligen Eigentümern entwickelt und gepflegt, nicht von Contex7Arwaky. Wenn du auf verdächtige, unangemessene oder potenziell schädliche Inhalte stößt, verwende bitte die Schaltfläche "Melden" auf der Projektseite, um uns sofort zu benachrichtigen. Wir nehmen alle Berichte ernst und werden gemeldete Inhalte umgehend überprüfen, um die Integrität und Sicherheit unserer Plattform zu gewährleisten. Durch die Nutzung von Contex7Arwaky erkennst du an, dass du dies nach eigenem Ermessen und auf eigenes Risiko tust.
 
-## Context7 in den Medien
+## Contex7Arwaky in den Medien
 - [Better Stack: "Free Tool Makes Cursor 10x Smarter"](https://youtu.be/52FC3qObp9E)
 - [Cole Medin: "This is Hands Down the BEST MCP Server for AI Coding Assistants"](https://www.youtube.com/watch?v=G7gK8H6u7Rs)
-- [Income stream surfers: "Context7 + SequentialThinking MCPs: Is This AGI?"](https://www.youtube.com/watch?v=-ggvzyLpK6o)
-- [Julian Goldie SEO: "Context7: New MCP AI Agent Update"](https://www.youtube.com/watch?v=CTZm6fBYisc)
+- [Income stream surfers: "Contex7Arwaky + SequentialThinking MCPs: Is This AGI?"](https://www.youtube.com/watch?v=-ggvzyLpK6o)
+- [Julian Goldie SEO: "Contex7Arwaky: New MCP AI Agent Update"](https://www.youtube.com/watch?v=CTZm6fBYisc)
 - [JeredBlu: "Context 7 MCP: Get Documentation Instantly + VS Code Setup"](https://www.youtube.com/watch?v=-ls0D-rtET4)
-- [Income stream surfers: "Context7: The New MCP Server That Will CHANGE AI Coding"](https://www.youtube.com/watch?v=PS-2Azb-C3M)
+- [Income stream surfers: "Contex7Arwaky: The New MCP Server That Will CHANGE AI Coding"](https://www.youtube.com/watch?v=PS-2Azb-C3M)
 
 ## Verlauf der Sterne
-[![Stern-Historien-Diagramm](https://api.star-history.com/svg?repos=upstash/context7&type=Date)](https://www.star-history.com/#upstash/context7&Date)
+[![Stern-Historien-Diagramm](https://api.star-history.com/svg?repos=upstash/contex7-arwaky&type=Date)](https://www.star-history.com/#upstash/contex7-arwaky&Date)
 
 ## Lizenz
 MIT

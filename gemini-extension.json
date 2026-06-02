@@ -1,18 +1,18 @@
 {
-  "name": "context7",
+  "name": "contex7-arwaky",
   "description": "Up-to-date code docs for any prompt",
   "version": "1.0.0",
   "settings": [
     {
       "name": "API Key",
-      "description": "Context7 API key. Create new key at https://context7.com/dashboard.",
+      "description": "Context7 API key. Create new key at https://contex7-arwaky.com/dashboard.",
       "envVar": "CONTEXT7_API_KEY"
     }
   ],
   "mcpServers": {
-    "context7": {
+    "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/context7-mcp", "--api-key", "${CONTEXT7_API_KEY}"]
+      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "${CONTEXT7_API_KEY}"]
     }
   }
 }

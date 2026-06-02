@@ -1,4 +1,4 @@
-# @upstash/context7-tools-ai-sdk
+# @upstash/contex7-arwaky-tools-ai-sdk
 
 ## 0.2.2
 
@@ -21,7 +21,7 @@
 ### Patch Changes
 
 - Updated dependencies [9412e62]
-  - @upstash/context7-sdk@0.3.0
+  - @upstash/contex7-arwaky-sdk@0.3.0
 
 ## 0.1.0
 
@@ -33,10 +33,10 @@
   - Rename `RESOLVE_LIBRARY_DESCRIPTION` to `RESOLVE_LIBRARY_ID_DESCRIPTION`
   - Rename `GET_LIBRARY_DOCS_DESCRIPTION` to `QUERY_DOCS_DESCRIPTION`
   - Update type re-exports to match new SDK types (Library, Documentation, GetContextOptions)
-  - Remove deprecated `defaultMaxResults` option from Context7ToolsConfig and Context7AgentConfig
+  - Remove deprecated `defaultMaxResults` option from Contex7ArwakyToolsConfig and Contex7ArwakyAgentConfig
   - Add rate limiting guidance to tool descriptions
 
 ### Patch Changes
 
 - Updated dependencies [b3cd38a]
-  - @upstash/context7-sdk@0.2.0
+  - @upstash/contex7-arwaky-sdk@0.2.0

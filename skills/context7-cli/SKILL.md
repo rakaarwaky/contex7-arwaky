@@ -1,11 +1,11 @@
 ---
-name: context7-cli
-description: Use the ctx7 CLI to fetch library documentation, manage AI coding skills, and configure Context7 MCP. Activate when the user mentions "ctx7" or "context7", needs current docs for any library, wants to install/search/generate skills, or needs to set up Context7 for their AI coding agent.
+name: contex7-arwaky-cli
+description: Use the ctx7 CLI to fetch library documentation, manage AI coding skills, and configure Contex7Arwaky MCP. Activate when the user mentions "ctx7" or "contex7-arwaky", needs current docs for any library, wants to install/search/generate skills, or needs to set up Contex7Arwaky for their AI coding agent.
 ---
 
 # ctx7 CLI
 
-The Context7 CLI does three things: fetches up-to-date library documentation, manages AI coding skills, and sets up Context7 MCP for your editor.
+The Contex7Arwaky CLI does three things: fetches up-to-date library documentation, manages AI coding skills, and sets up Contex7Arwaky MCP for your editor.
 
 Make sure the CLI is up to date before running commands:
 
@@ -23,7 +23,7 @@ npx ctx7@latest <command>
 
 - **[Documentation](references/docs.md)** — Fetch current docs for any library. Use when writing code, verifying API signatures, or when training data may be outdated.
 - **[Skills management](references/skills.md)** — Install, search, suggest, list, remove, and generate AI coding skills.
-- **[Setup](references/setup.md)** — Configure Context7 MCP for Claude Code / Cursor / OpenCode.
+- **[Setup](references/setup.md)** — Configure Contex7Arwaky MCP for Claude Code / Cursor / OpenCode.
 
 ## Quick Reference
 
@@ -42,7 +42,7 @@ ctx7 skills remove <name>             # Uninstall a skill
 ctx7 skills generate                  # Generate a custom skill with AI (requires login)
 
 # Setup
-ctx7 setup                            # Configure Context7 MCP (interactive)
+ctx7 setup                            # Configure Contex7Arwaky MCP (interactive)
 ctx7 login                            # Log in for higher rate limits + skill generation
 ctx7 whoami                           # Check current login status
 ```

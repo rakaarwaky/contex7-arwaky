@@ -24,7 +24,7 @@ description: >-
 
 # Documentation Lookup
 
-Retrieve current documentation and code examples for any library using the Context7 CLI.
+Retrieve current documentation and code examples for any library using the Contex7Arwaky CLI.
 
 Make sure the CLI is up to date before running commands:
 
@@ -56,7 +56,7 @@ IMPORTANT: Do not run these commands more than 3 times per question. If you cann
 
 ## Step 1: Resolve a Library
 
-Resolves a package/product name to a Context7-compatible library ID and returns matching libraries.
+Resolves a package/product name to a Contex7Arwaky-compatible library ID and returns matching libraries.
 
 ```bash
 ctx7 library react "How to clean up useEffect with async operations"
@@ -70,7 +70,7 @@ Always pass a `query` argument — it is required and directly affects result ra
 
 Each result includes:
 
-- **Library ID** — Context7-compatible identifier (format: `/org/project`)
+- **Library ID** — Contex7Arwaky-compatible identifier (format: `/org/project`)
 - **Name** — Library or package name
 - **Description** — Short summary
 - **Code Snippets** — Number of available code examples
@@ -145,11 +145,11 @@ ctx7 login
 ## Error Handling
 
 If a command fails with a quota error ("Monthly quota reached" or "quota exceeded"):
-1. Inform the user their Context7 quota is exhausted
+1. Inform the user their Contex7Arwaky quota is exhausted
 2. Suggest they authenticate for higher limits: `ctx7 login`
 3. If they cannot or choose not to authenticate, answer from training knowledge and clearly note it may be outdated
 
-Do not silently fall back to training data — always tell the user why Context7 was not used.
+Do not silently fall back to training data — always tell the user why Contex7Arwaky was not used.
 
 ## Common Mistakes
 

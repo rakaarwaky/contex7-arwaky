@@ -1,16 +1,16 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.upstash/context7",
+  "name": "io.github.upstash/contex7-arwaky",
   "title": "Context7",
   "description": "Up-to-date code docs for any prompt",
   "repository": {
-    "url": "https://github.com/upstash/context7",
+    "url": "https://github.com/upstash/contex7-arwaky",
     "source": "github"
   },
-  "websiteUrl": "https://context7.com",
+  "websiteUrl": "https://contex7-arwaky.com",
   "icons": [
     {
-      "src": "https://raw.githubusercontent.com/upstash/context7/master/public/icon.png",
+      "src": "https://raw.githubusercontent.com/upstash/contex7-arwaky/master/public/icon.png",
       "mimeType": "image/png"
     }
   ],
@@ -18,7 +18,7 @@
   "packages": [
     {
       "registryType": "npm",
-      "identifier": "@upstash/context7-mcp",
+      "identifier": "@upstash/contex7-arwaky-mcp",
       "version": "2.0.2",
       "transport": {
         "type": "stdio"
@@ -34,7 +34,7 @@
     },
     {
       "registryType": "mcpb",
-      "identifier": "https://github.com/upstash/context7/releases/download/@upstash/context7-mcp@2.0.2/context7.mcpb",
+      "identifier": "https://github.com/upstash/contex7-arwaky/releases/download/@upstash/contex7-arwaky-mcp@2.0.2/contex7-arwaky.mcpb",
       "version": "2.0.2",
       "fileSha256": "aea76f179ceb92d22c289147c9d8343fb558d6dec93b144c9794e99239bb8194",
       "transport": {
@@ -53,7 +53,7 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://mcp.context7.com/mcp",
+      "url": "https://mcp.contex7-arwaky.com/mcp",
       "headers": [
         {
           "name": "CONTEXT7_API_KEY",

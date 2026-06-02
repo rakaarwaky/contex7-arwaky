@@ -1,4 +1,4 @@
-# @upstash/context7-mcp
+# @upstash/contex7-arwaky-mcp
 
 ## 2.1.4
 
@@ -57,7 +57,7 @@
   - Removed get-library-docs tool, replaced with new query-docs tool
   - resolve-library-id now requires both query and libraryName parameters
   - Removed mode, topic, page, and limit parameters from documentation fetching
-  - Renamed context7CompatibleLibraryID parameter to libraryId
+  - Renamed contex7-arwakyCompatibleLibraryID parameter to libraryId
 
   New Features
   - Intelligent reranked and deduplicated library selection based on user intent

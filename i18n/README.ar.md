@@ -1,8 +1,8 @@
-# Context7 MCP - توثيق أكواد محدث لأي أمر برمجي
+# Contex7Arwaky MCP - توثيق أكواد محدث لأي أمر برمجي
 
-[![Website](https://img.shields.io/badge/Website-context7.com-blue)](https://context7.com) [![smithery badge](https://smithery.ai/badge/@upstash/context7-mcp)](https://smithery.ai/server/@upstash/context7-mcp) [<img alt="Install in VS Code (npx)" src="https://img.shields.io/badge/VS_Code-VS_Code?style=flat-square&label=Install%20Context7%20MCP&color=0098FF">](https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%7B%22name%22%3A%22context7%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40upstash%2Fcontext7-mcp%40latest%22%5D%7D)
+[![Website](https://img.shields.io/badge/Website-contex7-arwaky.com-blue)](https://contex7-arwaky.com) [![smithery badge](https://smithery.ai/badge/@upstash/contex7-arwaky-mcp)](https://smithery.ai/server/@upstash/contex7-arwaky-mcp) [<img alt="Install in VS Code (npx)" src="https://img.shields.io/badge/VS_Code-VS_Code?style=flat-square&label=Install%20Contex7Arwaky%20MCP&color=0098FF">](https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%7B%22name%22%3A%22contex7-arwaky%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40upstash%2Fcontex7-arwaky-mcp%40latest%22%5D%7D)
 
-## ❌ بدون Context7
+## ❌ بدون Contex7Arwaky
 
 تعتمد النماذج اللغوية الكبيرة على معلومات قديمة أو عامة حول المكتبات التي تستخدمها. مما يؤدي إلى:
 
@@ -10,23 +10,23 @@
 - ❌ واجهات برمجة تطبيقات وهمية غير موجودة
 - ❌ إجابات عامة لنسخ قديمة من الحزم
 
-## ✅ مع Context7
+## ✅ مع Contex7Arwaky
 
-يستخرج Context7 MCP التوثيق والأمثلة البرمجية المحدثة مباشرة من المصدر — ويضعها في طلبك للنموذج.
-أضف `use context7` إلى طلبك في Cursor:
+يستخرج Contex7Arwaky MCP التوثيق والأمثلة البرمجية المحدثة مباشرة من المصدر — ويضعها في طلبك للنموذج.
+أضف `use contex7-arwaky` إلى طلبك في Cursor:
 
 ```txt
-أنشئ مشروع Next.js بسيط باستخدام app router. use context7
+أنشئ مشروع Next.js بسيط باستخدام app router. use contex7-arwaky
 ```
 
 ```txt
-أنشئ سكربت لحذف الصفوف التي تكون فيها المدينة فارغة "" باستخدام بيانات اعتماد PostgreSQL. use context7
+أنشئ سكربت لحذف الصفوف التي تكون فيها المدينة فارغة "" باستخدام بيانات اعتماد PostgreSQL. use contex7-arwaky
 ```
 
-يقوم Context7 بجلب الأمثلة المحدثة والتوثيق المناسب مباشرة إلى السياق.
+يقوم Contex7Arwaky بجلب الأمثلة المحدثة والتوثيق المناسب مباشرة إلى السياق.
 
 - 1️⃣ اكتب طلبك بشكل طبيعي
-- 2️⃣ أخبر النموذج بـ `use context7`
+- 2️⃣ أخبر النموذج بـ `use contex7-arwaky`
 - 3️⃣ احصل على أكواد تعمل مباشرة
   لا حاجة للتنقل بين التبويبات، لا واجهات برمجة تطبيقات وهمية، لا أكواد قديمة.
 
@@ -39,10 +39,10 @@
 
 ### التثبيت عبر Smithery
 
-لتثبيت Context7 MCP Server تلقائيًا لـ Claude Desktop:
+لتثبيت Contex7Arwaky MCP Server تلقائيًا لـ Claude Desktop:
 
 ```bash
-npx -y @smithery/cli install @upstash/context7-mcp --client claude
+npx -y @smithery/cli install @upstash/contex7-arwaky-mcp --client claude
 ```
 
 ### التثبيت في Cursor
@@ -53,9 +53,9 @@ npx -y @smithery/cli install @upstash/context7-mcp --client claude
 ```json
 {
   "mcpServers": {
-    "context7": {
+    "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/context7-mcp@latest"]
+      "args": ["-y", "@upstash/contex7-arwaky-mcp@latest"]
     }
   }
 }
@@ -66,9 +66,9 @@ npx -y @smithery/cli install @upstash/context7-mcp --client claude
 ```json
 {
   "mcpServers": {
-    "context7": {
+    "contex7-arwaky": {
       "command": "bunx",
-      "args": ["-y", "@upstash/context7-mcp@latest"]
+      "args": ["-y", "@upstash/contex7-arwaky-mcp@latest"]
     }
   }
 }
@@ -79,9 +79,9 @@ npx -y @smithery/cli install @upstash/context7-mcp --client claude
 ```json
 {
   "mcpServers": {
-    "context7": {
+    "contex7-arwaky": {
       "command": "deno",
-      "args": ["run", "--allow-env", "--allow-net", "npm:@upstash/context7-mcp"]
+      "args": ["run", "--allow-env", "--allow-net", "npm:@upstash/contex7-arwaky-mcp"]
     }
   }
 }
@@ -92,9 +92,9 @@ npx -y @smithery/cli install @upstash/context7-mcp --client claude
 ```json
 {
   "mcpServers": {
-    "context7": {
+    "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/context7-mcp@latest"]
+      "args": ["-y", "@upstash/contex7-arwaky-mcp@latest"]
     }
   }
 }
@@ -105,10 +105,10 @@ npx -y @smithery/cli install @upstash/context7-mcp --client claude
 ```json
 {
   "servers": {
-    "Context7": {
+    "Contex7Arwaky": {
       "type": "stdio",
       "command": "npx",
-      "args": ["-y", "@upstash/context7-mcp@latest"]
+      "args": ["-y", "@upstash/contex7-arwaky-mcp@latest"]
     }
   }
 }
@@ -119,10 +119,10 @@ npx -y @smithery/cli install @upstash/context7-mcp --client claude
 ```json
 {
   "context_servers": {
-    "Context7": {
+    "Contex7Arwaky": {
       "source": "custom",
       "command": "npx",
-      "args": ["-y", "@upstash/context7-mcp", "--api-key", "YOUR_API_KEY"]
+      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
     }
   }
 }
@@ -131,7 +131,7 @@ npx -y @smithery/cli install @upstash/context7-mcp --client claude
 ### التثبيت في Claude Code
 
 ```sh
-claude mcp add --scope user context7 -- npx -y @upstash/context7-mcp@latest
+claude mcp add --scope user contex7-arwaky -- npx -y @upstash/contex7-arwaky-mcp@latest
 ```
 
 ### التثبيت في Claude Desktop
@@ -139,9 +139,9 @@ claude mcp add --scope user context7 -- npx -y @upstash/context7-mcp@latest
 ```json
 {
   "mcpServers": {
-    "Context7": {
+    "Contex7Arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/context7-mcp@latest"]
+      "args": ["-y", "@upstash/contex7-arwaky-mcp@latest"]
     }
   }
 }
@@ -152,9 +152,9 @@ claude mcp add --scope user context7 -- npx -y @upstash/context7-mcp@latest
 ```json
 {
   "mcpServers": {
-    "context7": {
+    "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/context7-mcp@latest"]
+      "args": ["-y", "@upstash/contex7-arwaky-mcp@latest"]
     }
   }
 }
@@ -167,9 +167,9 @@ claude mcp add --scope user context7 -- npx -y @upstash/context7-mcp@latest
 ```json
 {
   "mcpServers": {
-    "context7": {
+    "contex7-arwaky": {
       "type": "http",
-      "url": "https://mcp.context7.com/mcp",
+      "url": "https://mcp.contex7-arwaky.com/mcp",
       "tools": ["query-docs", "resolve-library-id"]
     }
   }
@@ -185,14 +185,14 @@ claude mcp add --scope user context7 -- npx -y @upstash/context7-mcp@latest
 ```Dockerfile
 FROM node:18-alpine
 WORKDIR /app
-RUN npm install -g @upstash/context7-mcp@latest
-CMD ["context7-mcp"]
+RUN npm install -g @upstash/contex7-arwaky-mcp@latest
+CMD ["contex7-arwaky-mcp"]
 ```
 
 **بناء الصورة:**
 
 ```bash
-docker build -t context7-mcp .
+docker build -t contex7-arwaky-mcp .
 ```
 
 **التهيئة داخل العميل:**
@@ -200,9 +200,9 @@ docker build -t context7-mcp .
 ```json
 {
   "mcpServers": {
-    "Context7": {
+    "Contex7Arwaky": {
       "command": "docker",
-      "args": ["run", "-i", "--rm", "context7-mcp"],
+      "args": ["run", "-i", "--rm", "contex7-arwaky-mcp"],
       "transportType": "stdio"
     }
   }
@@ -214,9 +214,9 @@ docker build -t context7-mcp .
 ```json
 {
   "mcpServers": {
-    "github.com/upstash/context7-mcp": {
+    "github.com/upstash/contex7-arwaky-mcp": {
       "command": "cmd",
-      "args": ["/c", "npx", "-y", "@upstash/context7-mcp@latest"],
+      "args": ["/c", "npx", "-y", "@upstash/contex7-arwaky-mcp@latest"],
       "disabled": false,
       "autoApprove": []
     }
@@ -226,11 +226,11 @@ docker build -t context7-mcp .
 
 ### الأدوات المتوفرة
 
-- `resolve-library-id`: يحول اسم مكتبة عام إلى معرف متوافق مع Context7.
+- `resolve-library-id`: يحول اسم مكتبة عام إلى معرف متوافق مع Contex7Arwaky.
   - `query` (مطلوب): سؤال أو مهمة المستخدم (لترتيب الصلة)
   - `libraryName` (مطلوب): اسم المكتبة للبحث عنها
 - `query-docs`: يستخرج التوثيق حسب المعرف.
-  - `libraryId` (مطلوب): معرف Context7 المتوافق الدقيق (مثل `/mongodb/docs`, `/vercel/next.js`)
+  - `libraryId` (مطلوب): معرف Contex7Arwaky المتوافق الدقيق (مثل `/mongodb/docs`, `/vercel/next.js`)
   - `query` (مطلوب): السؤال أو المهمة للحصول على توثيق ذي صلة
 
 ## التطوير
@@ -245,9 +245,9 @@ pnpm run build
 ```json
 {
   "mcpServers": {
-    "context7": {
+    "contex7-arwaky": {
       "command": "npx",
-      "args": ["tsx", "/path/to/folder/context7-mcp/src/index.ts"]
+      "args": ["tsx", "/path/to/folder/contex7-arwaky-mcp/src/index.ts"]
     }
   }
 }
@@ -256,7 +256,7 @@ pnpm run build
 **الاختبار باستخدام MCP Inspector:**
 
 ```bash
-npx -y @modelcontextprotocol/inspector npx @upstash/context7-mcp@latest
+npx -y @modelcontextprotocol/inspector npx @upstash/contex7-arwaky-mcp@latest
 ```
 
 ## استكشاف الأخطاء
@@ -268,9 +268,9 @@ npx -y @modelcontextprotocol/inspector npx @upstash/context7-mcp@latest
 ```json
 {
   "mcpServers": {
-    "context7": {
+    "contex7-arwaky": {
       "command": "bunx",
-      "args": ["-y", "@upstash/context7-mcp@latest"]
+      "args": ["-y", "@upstash/contex7-arwaky-mcp@latest"]
     }
   }
 }
@@ -283,7 +283,7 @@ npx -y @modelcontextprotocol/inspector npx @upstash/context7-mcp@latest
 ```json
 {
   "command": "npx",
-  "args": ["-y", "--node-options=--experimental-vm-modules", "@upstash/context7-mcp@1.0.6"]
+  "args": ["-y", "--node-options=--experimental-vm-modules", "@upstash/contex7-arwaky-mcp@1.0.6"]
 }
 ```
 
@@ -296,22 +296,22 @@ npx -y @modelcontextprotocol/inspector npx @upstash/context7-mcp@latest
 
 ## إخلاء مسؤولية
 
-المشاريع المدرجة في Context7 مساهم بها من المجتمع، ولا يمكن ضمان دقتها أو أمانها بشكل كامل. الرجاء الإبلاغ عن أي محتوى مريب باستخدام زر "الإبلاغ".
+المشاريع المدرجة في Contex7Arwaky مساهم بها من المجتمع، ولا يمكن ضمان دقتها أو أمانها بشكل كامل. الرجاء الإبلاغ عن أي محتوى مريب باستخدام زر "الإبلاغ".
 
-## Context7 في الإعلام
+## Contex7Arwaky في الإعلام
 
 - [Better Stack: "أداة مجانية تجعل Cursor أذكى 10x"](https://youtu.be/52FC3qObp9E)
 - [Cole Medin: "أفضل MCP Server لمساعدين الذكاء الاصطناعي البرمجيين"](https://www.youtube.com/watch?v=G7gK8H6u7Rs)
-- [Context7 + SequentialThinking: هل هذا AGI؟](https://www.youtube.com/watch?v=-ggvzyLpK6o)
-- [تحديث جديد من Context7 MCP](https://www.youtube.com/watch?v=CTZm6fBYisc)
-- [إعداد Context7 في VS Code](https://www.youtube.com/watch?v=-ls0D-rtET4)
-- [Context7: MCP جديد سيغير البرمجة](https://www.youtube.com/watch?v=PS-2Azb-C3M)
-- [Cline & RooCode + Context7: قوة مضاعفة](https://www.youtube.com/watch?v=qZfENAPMnyo)
+- [Contex7Arwaky + SequentialThinking: هل هذا AGI؟](https://www.youtube.com/watch?v=-ggvzyLpK6o)
+- [تحديث جديد من Contex7Arwaky MCP](https://www.youtube.com/watch?v=CTZm6fBYisc)
+- [إعداد Contex7Arwaky في VS Code](https://www.youtube.com/watch?v=-ls0D-rtET4)
+- [Contex7Arwaky: MCP جديد سيغير البرمجة](https://www.youtube.com/watch?v=PS-2Azb-C3M)
+- [Cline & RooCode + Contex7Arwaky: قوة مضاعفة](https://www.youtube.com/watch?v=qZfENAPMnyo)
 - [أفضل 5 MCP Servers لتجربة برمجة ساحرة](https://www.youtube.com/watch?v=LqTQi8qexJM)
 
 ## سجل النجوم
 
-[![Star History Chart](https://api.star-history.com/svg?repos=upstash/context7&type=Date)](https://www.star-history.com/#upstash/context7&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=upstash/contex7-arwaky&type=Date)](https://www.star-history.com/#upstash/contex7-arwaky&Date)
 
 ## الترخيص
 

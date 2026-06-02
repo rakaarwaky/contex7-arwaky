@@ -1,9 +1,9 @@
 {
   "mcpServers": {
-    "context7": {
+    "contex7-arwaky": {
       "command": "node",
       "args": [
-        "/home/raka/mcp-servers/context7/packages/mcp/dist/index.js"
+        "/home/raka/mcp-arwaky/contex7-arwaky/packages/mcp/dist/index.js"
       ]
     }
   }

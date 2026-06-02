@@ -1,30 +1,30 @@
-# Context7 Plugin for Claude Code
+# Contex7Arwaky Plugin for Claude Code
 
-Context7 solves a common problem with AI coding assistants: outdated training data and hallucinated APIs. Instead of relying on stale knowledge, Context7 fetches current documentation directly from source repositories.
+Contex7Arwaky solves a common problem with AI coding assistants: outdated training data and hallucinated APIs. Instead of relying on stale knowledge, Contex7Arwaky fetches current documentation directly from source repositories.
 
 ## What's Included
 
 This plugin provides:
 
-- **MCP Server** - Connects Claude Code to Context7's documentation service
+- **MCP Server** - Connects Claude Code to Contex7Arwaky's documentation service
 - **Skills** - Auto-triggers documentation lookups when you ask about libraries
 - **Agents** - A dedicated `docs-researcher` agent for focused lookups
-- **Commands** - `/context7:docs` for manual documentation queries
+- **Commands** - `/contex7-arwaky:docs` for manual documentation queries
 
 ## Installation
 
 Add the marketplace and install the plugin:
 
 ```bash
-claude plugin marketplace add upstash/context7
-claude plugin install context7-plugin@context7-marketplace
+claude plugin marketplace add upstash/contex7-arwaky
+claude plugin install contex7-arwaky-plugin@contex7-arwaky-marketplace
 ```
 
 ## Available Tools
 
 ### resolve-library-id
 
-Searches for libraries and returns Context7-compatible identifiers.
+Searches for libraries and returns Contex7Arwaky-compatible identifiers.
 
 ```
 Input: "next.js"
@@ -51,8 +51,8 @@ The plugin works automatically when you ask about libraries:
 For manual lookups, use the command:
 
 ```
-/context7:docs next.js app router
-/context7:docs /vercel/next.js/v15.1.8 middleware
+/contex7-arwaky:docs next.js app router
+/contex7-arwaky:docs /vercel/next.js/v15.1.8 middleware
 ```
 
 Or spawn the docs-researcher agent when you want to keep your main context clean:

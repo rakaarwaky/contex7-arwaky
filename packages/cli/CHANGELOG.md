@@ -13,14 +13,14 @@
 - 62dc278: - feat(cli): enumerate popularity with a 4-star scale in skill search, install, and suggest results
   - feat(cli): show install count range and trust score in skill hover details
   - fix(cli): rename "docs" skill to "find-docs" in setup output and prompts
-- 04130b5: Consolidate skills under /skills with canonical sources: rename docs→find-docs, ctx7-cli→context7-cli, add context7-mcp as canonical MCP skill. MCP setup now downloads skill from GitHub instead of using hardcoded content.
+- 04130b5: Consolidate skills under /skills with canonical sources: rename docs→find-docs, ctx7-cli→contex7-arwaky-cli, add contex7-arwaky-mcp as canonical MCP skill. MCP setup now downloads skill from GitHub instead of using hardcoded content.
 - d418405: Add CLI mode to ctx7 setup for installing the docs skill without MCP configuration
 
 ## 0.3.3
 
 ### Patch Changes
 
-- 31b4fb8: Align CLI library output format with MCP: use labeled fields (Title, Context7-compatible library ID, Description, Code Snippets, Source Reputation, Benchmark Score, Versions) and categorical reputation labels (High/Medium/Low/Unknown) instead of numeric trust scores
+- 31b4fb8: Align CLI library output format with MCP: use labeled fields (Title, Contex7Arwaky-compatible library ID, Description, Code Snippets, Source Reputation, Benchmark Score, Versions) and categorical reputation labels (High/Medium/Low/Unknown) instead of numeric trust scores
 - 9de3f06: Display warning when public library access filter is being used to filter libraries.
 - 05a4406: Remove default selection of Universal agent target during skills install prompt
 - 9aae852: Show source repository next to skill name in search and suggest results for easier disambiguation
@@ -41,7 +41,7 @@
 
 ### Minor Changes
 
-- 3d66191: Add `ctx7 setup` command for configuring Context7 MCP and rules across Claude Code, Cursor, and OpenCode
+- 3d66191: Add `ctx7 setup` command for configuring Contex7Arwaky MCP and rules across Claude Code, Cursor, and OpenCode
 
 ## 0.2.4
 
@@ -91,7 +91,7 @@
 ### Improvements
 
 - Improved skill selection UX with metadata panel showing Skill, Repo, and Description
-- Clickable links in metadata (Skill → context7.com, Repo → GitHub)
+- Clickable links in metadata (Skill → contex7-arwaky.com, Repo → GitHub)
 - Display install counts next to skill names (e.g., `↓100+`, `↓50+`)
 - Numbered list items for easier reference
 - Select hovered item on Enter without needing to Space-select first

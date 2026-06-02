@@ -1,10 +1,10 @@
-# Upstash Context7 SDK
+# Upstash Contex7Arwaky SDK
 
 > ⚠️ **Work in Progress**: This SDK is currently under active development. The API is subject to change and may introduce breaking changes in future releases.
 
-`@upstash/context7-sdk` is an HTTP/REST based client for TypeScript, built on top of the [Context7 API](https://context7.com).
+`@upstash/contex7-arwaky-sdk` is an HTTP/REST based client for TypeScript, built on top of the [Contex7Arwaky API](https://contex7-arwaky.com).
 
-## Why Context7?
+## Why Contex7Arwaky?
 
 LLMs rely on outdated or generic training data about the libraries you use. This leads to:
 
@@ -12,7 +12,7 @@ LLMs rely on outdated or generic training data about the libraries you use. This
 - Hallucinated APIs that don't exist
 - Generic answers for old package versions
 
-Context7 solves this by providing up-to-date, version-specific documentation and code examples directly from the source. Use this SDK to:
+Contex7Arwaky solves this by providing up-to-date, version-specific documentation and code examples directly from the source. Use this SDK to:
 
 - Build AI agents with accurate, current documentation context
 - Create RAG pipelines with reliable library documentation
@@ -23,19 +23,19 @@ Context7 solves this by providing up-to-date, version-specific documentation and
 ### Install
 
 ```bash
-npm install @upstash/context7-sdk
+npm install @upstash/contex7-arwaky-sdk
 ```
 
 ### Get API Key
 
-Get your API key from [Context7](https://context7.com)
+Get your API key from [Contex7Arwaky](https://contex7-arwaky.com)
 
 ## Basic Usage
 
 ```ts
-import { Context7 } from "@upstash/context7-sdk";
+import { Contex7Arwaky } from "@upstash/contex7-arwaky-sdk";
 
-const client = new Context7({
+const client = new Contex7Arwaky({
   apiKey: "<CONTEXT7_API_KEY>",
 });
 
@@ -72,12 +72,12 @@ CONTEXT7_API_KEY=ctx7sk-...
 Then initialize without options:
 
 ```ts
-const client = new Context7();
+const client = new Contex7Arwaky();
 ```
 
 ## Docs
 
-See the [documentation](https://context7.com/docs/sdks/ts/getting-started) for details.
+See the [documentation](https://contex7-arwaky.com/docs/sdks/ts/getting-started) for details.
 
 ## Contributing
 

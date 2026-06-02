@@ -1,6 +1,6 @@
 # Skills Commands
 
-Manage AI coding skills from the Context7 registry. Skills are Markdown files that teach AI coding agents best practices, patterns, and workflows for specific libraries or tasks.
+Manage AI coding skills from the Contex7Arwaky registry. Skills are Markdown files that teach AI coding agents best practices, patterns, and workflows for specific libraries or tasks.
 
 ## Install
 
