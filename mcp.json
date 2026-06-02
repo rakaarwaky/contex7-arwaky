@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "context7": {
+      "command": "node",
+      "args": [
+        "/home/raka/mcp-servers/context7/packages/mcp/dist/index.js"
+      ]
+    }
+  }
+}
