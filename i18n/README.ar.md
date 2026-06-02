@@ -307,7 +307,7 @@ npx -y @modelcontextprotocol/inspector npx @upstash/contex7-arwaky-mcp@latest
 - [إعداد Contex7Arwaky في VS Code](https://www.youtube.com/watch?v=-ls0D-rtET4)
 - [Contex7Arwaky: MCP جديد سيغير البرمجة](https://www.youtube.com/watch?v=PS-2Azb-C3M)
 - [Cline & RooCode + Contex7Arwaky: قوة مضاعفة](https://www.youtube.com/watch?v=qZfENAPMnyo)
-- [أفضل 5 MCP Servers لتجربة برمجة ساحرة](https://www.youtube.com/watch?v=LqTQi8qexJM)
+- [أفضل 5 MCP Arwaky لتجربة برمجة ساحرة](https://www.youtube.com/watch?v=LqTQi8qexJM)
 
 ## سجل النجوم
 

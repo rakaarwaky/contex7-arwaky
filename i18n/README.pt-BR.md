@@ -179,7 +179,7 @@ Adicione isto ao arquivo de configuração MCP do VS Code. Veja mais em [VS Code
 
 Você pode instalar o Contex7Arwaky facilmente pelo [Cline MCP Server Marketplace](https://cline.bot/mcp-marketplace) seguindo estas instruções:
 1. Abra o **Cline**.
-2. Clique no ícone de menu (☰) para entrar na seção **MCP Servers**.
+2. Clique no ícone de menu (☰) para entrar na seção **MCP Arwaky**.
 3. Use a barra de busca na aba **Marketplace** para encontrar _Contex7Arwaky_.
 4. Clique no botão **Install**.
 </details>
@@ -401,7 +401,7 @@ Veja mais detalhes na [Documentação do JetBrains AI Assistant](https://www.jet
 <summary><b>Instalar no Kiro</b></summary>
 
 Veja a [Documentação do Kiro Model Context Protocol](https://kiro.dev/docs/mcp/configuration/) para detalhes.
-1. Navegue até `Kiro` > `MCP Servers`
+1. Navegue até `Kiro` > `MCP Arwaky`
 2. Adicione um novo servidor MCP clicando no botão `+ Add`.
 3. Cole a configuração abaixo:
 ```json
@@ -677,7 +677,7 @@ Veja mais em [Suporte a MCP no LM Studio](https://lmstudio.ai/blog/lmstudio-v0.3
 <details>
 <summary><b>Instalar no Visual Studio 2022</b></summary>
 
-Você pode configurar o Contex7Arwaky MCP no Visual Studio 2022 seguindo a [documentação de MCP Servers do Visual Studio](https://learn.microsoft.com/visualstudio/ide/mcp-arwaky?view=vs-2022).
+Você pode configurar o Contex7Arwaky MCP no Visual Studio 2022 seguindo a [documentação de MCP Arwaky do Visual Studio](https://learn.microsoft.com/visualstudio/ide/mcp-arwaky?view=vs-2022).
 Adicione isto ao arquivo de configuração MCP do Visual Studio (veja os [docs do Visual Studio](https://learn.microsoft.com/visualstudio/ide/mcp-arwaky?view=vs-2022) para detalhes):
 ```json
 {
@@ -705,7 +705,7 @@ Ou, para um servidor local:
   }
 }
 ```
-Para mais informações e solução de problemas, consulte a [documentação de MCP Servers do Visual Studio](https://learn.microsoft.com/visualstudio/ide/mcp-arwaky?view=vs-2022).
+Para mais informações e solução de problemas, consulte a [documentação de MCP Arwaky do Visual Studio](https://learn.microsoft.com/visualstudio/ide/mcp-arwaky?view=vs-2022).
 </details>
 
 <details>
@@ -1020,10 +1020,10 @@ Mantenha-se atualizado e junte-se à nossa comunidade:
 - [Cole Medin: "This is Hands Down the BEST MCP Server for AI Coding Assistants"](https://www.youtube.com/watch?v=G7gK8H6u7Rs)
 - [Income Stream Surfers: "Contex7Arwaky + SequentialThinking MCPs: Is This AGI?"](https://www.youtube.com/watch?v=-ggvzyLpK6o)
 - [Julian Goldie SEO: "Contex7Arwaky: New MCP AI Agent Update"](https://www.youtube.com/watch?v=CTZm6fBYisc)
-- [JeredBlu: "Context 7 MCP: Get Documentation Instantly + VS Code Setup"](https://www.youtube.com/watch?v=-ls0D-rtET4)
+- [JeredBlu: "Contex7 Arwaky MCP: Get Documentation Instantly + VS Code Setup"](https://www.youtube.com/watch?v=-ls0D-rtET4)
 - [Income Stream Surfers: "Contex7Arwaky: The New MCP Server That Will CHANGE AI Coding"](https://www.youtube.com/watch?v=PS-2Azb-C3M)
 - [AICodeKing: "Contex7Arwaky + Cline & RooCode: This MCP Server Makes CLINE 100X MORE EFFECTIVE!"](https://www.youtube.com/watch?v=qZfENAPMnyo)
-- [Sean Kochel: "5 MCP Servers For Vibe Coding Glory (Just Plug-In & Go)"](https://www.youtube.com/watch?v=LqTQi8qexJM)
+- [Sean Kochel: "5 MCP Arwaky For Vibe Coding Glory (Just Plug-In & Go)"](https://www.youtube.com/watch?v=LqTQi8qexJM)
 
 ## ⭐ Histórico de Stars
 [![Gráfico de Histórico de Stars](https://api.star-history.com/svg?repos=upstash/contex7-arwaky&type=Date)](https://www.star-history.com/#upstash/contex7-arwaky&Date)

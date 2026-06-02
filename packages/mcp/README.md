@@ -254,14 +254,14 @@ Add this to your VS Code MCP config file. See [VS Code MCP docs](https://code.vi
 You can easily install Contex7Arwaky through the [Cline MCP Server Marketplace](https://cline.bot/mcp-marketplace) by following these instructions:
 
 1. Open **Cline**.
-2. Click the hamburger menu icon (☰) to enter the **MCP Servers** section.
+2. Click the hamburger menu icon (☰) to enter the **MCP Arwaky** section.
 3. Use the search bar within the **Marketplace** tab to find _Contex7Arwaky_.
 4. Click the **Install** button.
 
 Or you can directly edit MCP servers configuration:
 
 1. Open **Cline**.
-2. Click the hamburger menu icon (☰) to enter the **MCP Servers** section.
+2. Click the hamburger menu icon (☰) to enter the **MCP Arwaky** section.
 3. Choose **Remote Servers** tab.
 4. Click the **Edit Configuration** button.
 5. Add contex7-arwaky to `mcpServers`:
@@ -366,7 +366,7 @@ If a server is defined in both places, the **project-level configuration overrid
 
 1. Open **Kilo Code**.
 2. Click the **Settings** icon in the top-right corner.
-3. Navigate to **Settings → MCP Servers**.
+3. Navigate to **Settings → MCP Arwaky**.
 4. Click **Add Server**.
 5. Choose **HTTP Server** (Streamable HTTP Transport).
 6. Enter the details:
@@ -381,7 +381,7 @@ If a server is defined in both places, the **project-level configuration overrid
 
 7. Click **Save**.
 8. Ensure the server toggle is **enabled**.
-9. If needed, click **Refresh MCP Servers** to reload the configuration.
+9. If needed, click **Refresh MCP Arwaky** to reload the configuration.
 
 ---
 
@@ -411,9 +411,9 @@ Replace YOUR_API_KEY with your actual Contex7Arwaky API key.
 
 After saving the file:
 
-- Open Settings → MCP Servers
+- Open Settings → MCP Arwaky
 
-- Click Refresh MCP Servers
+- Click Refresh MCP Arwaky
 
 Kilo Code will automatically detect and load the configuration.
 
@@ -720,7 +720,7 @@ See [JetBrains AI Assistant Documentation](https://www.jetbrains.com/help/ai-ass
 
 See [Kiro Model Context Protocol Documentation](https://kiro.dev/docs/mcp/configuration/) for details.
 
-1. Navigate `Kiro` > `MCP Servers`
+1. Navigate `Kiro` > `MCP Arwaky`
 2. Add a new MCP server by clicking the `+ Add` button.
 3. Paste the configuration given below:
 
@@ -1043,7 +1043,7 @@ See [LM Studio MCP Support](https://lmstudio.ai/blog/lmstudio-v0.3.17) for more 
 <details>
 <summary><b>Install in Visual Studio 2022</b></summary>
 
-You can configure Contex7Arwaky MCP in Visual Studio 2022 by following the [Visual Studio MCP Servers documentation](https://learn.microsoft.com/visualstudio/ide/mcp-arwaky?view=vs-2022).
+You can configure Contex7Arwaky MCP in Visual Studio 2022 by following the [Visual Studio MCP Arwaky documentation](https://learn.microsoft.com/visualstudio/ide/mcp-arwaky?view=vs-2022).
 
 Add this to your Visual Studio MCP config file (see the [Visual Studio docs](https://learn.microsoft.com/visualstudio/ide/mcp-arwaky?view=vs-2022) for details):
 
@@ -1078,7 +1078,7 @@ Or, for a local server:
 }
 ```
 
-For more information and troubleshooting, refer to the [Visual Studio MCP Servers documentation](https://learn.microsoft.com/visualstudio/ide/mcp-arwaky?view=vs-2022).
+For more information and troubleshooting, refer to the [Visual Studio MCP Arwaky documentation](https://learn.microsoft.com/visualstudio/ide/mcp-arwaky?view=vs-2022).
 
 </details>
 
@@ -1540,10 +1540,10 @@ Stay updated and join our community:
 - [Cole Medin: "This is Hands Down the BEST MCP Server for AI Coding Assistants"](https://www.youtube.com/watch?v=G7gK8H6u7Rs)
 - [Income Stream Surfers: "Contex7Arwaky + SequentialThinking MCPs: Is This AGI?"](https://www.youtube.com/watch?v=-ggvzyLpK6o)
 - [Julian Goldie SEO: "Contex7Arwaky: New MCP AI Agent Update"](https://www.youtube.com/watch?v=CTZm6fBYisc)
-- [JeredBlu: "Context 7 MCP: Get Documentation Instantly + VS Code Setup"](https://www.youtube.com/watch?v=-ls0D-rtET4)
+- [JeredBlu: "Contex7 Arwaky MCP: Get Documentation Instantly + VS Code Setup"](https://www.youtube.com/watch?v=-ls0D-rtET4)
 - [Income Stream Surfers: "Contex7Arwaky: The New MCP Server That Will CHANGE AI Coding"](https://www.youtube.com/watch?v=PS-2Azb-C3M)
 - [AICodeKing: "Contex7Arwaky + Cline & RooCode: This MCP Server Makes CLINE 100X MORE EFFECTIVE!"](https://www.youtube.com/watch?v=qZfENAPMnyo)
-- [Sean Kochel: "5 MCP Servers For Vibe Coding Glory (Just Plug-In & Go)"](https://www.youtube.com/watch?v=LqTQi8qexJM)
+- [Sean Kochel: "5 MCP Arwaky For Vibe Coding Glory (Just Plug-In & Go)"](https://www.youtube.com/watch?v=LqTQi8qexJM)
 
 ## ⭐ Star History
 

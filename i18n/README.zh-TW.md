@@ -231,7 +231,7 @@ Contex7Arwaky MCP 提供下列 LLM 可使用的工具：
 - [Cole Medin：「這絕對是 AI 程式助理最強 MCP 伺服器」](https://www.youtube.com/watch?v=G7gK8H6u7Rs)
 - [Income Stream Surfers：「Contex7Arwaky + SequentialThinking MCPs：這是 AGI 嗎？」](https://www.youtube.com/watch?v=-ggvzyLpK6o)
 - [Julian Goldie SEO：「Contex7Arwaky：全新 MCP AI 代理更新」](https://www.youtube.com/watch?v=CTZm6fBYisc)
-- [JeredBlu：「Context 7 MCP：即時取得文件 + VS Code 設定」](https://www.youtube.com/watch?v=-ls0D-rtET4)
+- [JeredBlu：「Contex7 Arwaky MCP：即時取得文件 + VS Code 設定」](https://www.youtube.com/watch?v=-ls0D-rtET4)
 - [Income Stream Surfers：「Contex7Arwaky：將改變 AI 程式開發的新 MCP 伺服器」](https://www.youtube.com/watch?v=PS-2Azb-C3M)
 - [AICodeKing：「Contex7Arwaky + Cline & RooCode：這個 MCP 伺服器讓 CLINE 效率提升 100 倍！」](https://www.youtube.com/watch?v=qZfENAPMnyo)
 - [Sean Kochel：「5 個讓程式開發如虎添翼的 MCP 伺服器（即插即用）」](https://www.youtube.com/watch?v=LqTQi8qexJM)

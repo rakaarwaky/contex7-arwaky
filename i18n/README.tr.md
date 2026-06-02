@@ -289,7 +289,7 @@ Contex7Arwaky projeleri topluluk katkılıdır ve yüksek kaliteyi korumaya çal
 - [Cole Medin: "Bu, Tartışmasız AI Kodlama Asistanları İçin EN İYİ MCP Sunucusudur"](https://www.youtube.com/watch?v=G7gK8H6u7Rs)
 - [Income stream surfers: "Contex7Arwaky + SequentialThinking MCP'leri: Bu AGI mi?"](https://www.youtube.com/watch?v=-ggvzyLpK6o)
 - [Julian Goldie SEO: "Contex7Arwaky: Yeni MCP AI Aracı Güncellemesi"](https://www.youtube.com/watch?v=CTZm6fBYisc)
-- [JeredBlu: "Context 7 MCP: Belgeleri Anında Alın + VS Code Kurulumu"](https://www.youtube.com/watch?v=-ls0D-rtET4)
+- [JeredBlu: "Contex7 Arwaky MCP: Belgeleri Anında Alın + VS Code Kurulumu"](https://www.youtube.com/watch?v=-ls0D-rtET4)
 - [Income stream surfers: "Contex7Arwaky: AI Kodlamayı DEĞİŞTİRECEK Yeni MCP Sunucusu"](https://www.youtube.com/watch?v=PS-2Azb-C3M)
 - [AICodeKing: "Contex7Arwaky + Cline & RooCode: Bu MCP Sunucusu CLINE'ı 100 KAT DAHA ETKİLİ YAPIYOR!"](https://www.youtube.com/watch?v=qZfENAPMnyo)
 - [Sean Kochel: "Vibe Kodlama İhtişamı İçin 5 MCP Sunucusu (Tak ve Çalıştır)"](https://www.youtube.com/watch?v=LqTQi8qexJM)
