@@ -155,7 +155,7 @@ importers:
       '@types/node':
         specifier: ^25.0.3
         version: 25.0.3
-      '@upstash/context7-sdk':
+      '@rakaarwaky/contex7-arwaky-sdk':
         specifier: workspace:*
         version: link:../sdk
       ai:

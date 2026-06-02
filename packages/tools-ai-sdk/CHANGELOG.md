@@ -1,4 +1,4 @@
-# @upstash/contex7-arwaky-tools-ai-sdk
+# @rakaarwaky/contex7-arwaky-tools-ai-sdk
 
 ## 0.2.2
 
@@ -21,7 +21,7 @@
 ### Patch Changes
 
 - Updated dependencies [9412e62]
-  - @upstash/contex7-arwaky-sdk@0.3.0
+  - @rakaarwaky/contex7-arwaky-sdk@0.3.0
 
 ## 0.1.0
 
@@ -39,4 +39,4 @@
 ### Patch Changes
 
 - Updated dependencies [b3cd38a]
-  - @upstash/contex7-arwaky-sdk@0.2.0
+  - @rakaarwaky/contex7-arwaky-sdk@0.2.0

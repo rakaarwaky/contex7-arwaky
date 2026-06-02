@@ -1,6 +1,6 @@
 import { tool } from "ai";
 import { z } from "zod";
-import { Context7 } from "@upstash/context7-sdk";
+import { Context7 } from "@rakaarwaky/contex7-arwaky-sdk";
 import type { Context7ToolsConfig } from "./types";
 import { QUERY_DOCS_DESCRIPTION } from "@prompts";
 
@@ -15,7 +15,7 @@ import { QUERY_DOCS_DESCRIPTION } from "@prompts";
  *
  * @example
  * ```typescript
- * import { resolveLibraryId, queryDocs } from '@upstash/context7-tools-ai-sdk';
+ * import { resolveLibraryId, queryDocs } from '@rakaarwaky/contex7-arwaky-tools-ai-sdk';
  * import { generateText, stepCountIs } from 'ai';
  * import { openai } from '@ai-sdk/openai';
  *

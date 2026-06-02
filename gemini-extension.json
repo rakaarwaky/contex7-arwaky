@@ -12,7 +12,7 @@
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "${CONTEXT7_API_KEY}"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "${CONTEXT7_API_KEY}"]
     }
   }
 }

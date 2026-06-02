@@ -1,6 +1,6 @@
 # Contex7Arwaky MCP - Documentazione aggiornata per qualsiasi prompt
 
-[![Website](https://img.shields.io/badge/Website-contex7-arwaky.com-blue)](https://contex7-arwaky.com) [![smithery badge](https://smithery.ai/badge/@upstash/contex7-arwaky-mcp)](https://smithery.ai/server/@upstash/contex7-arwaky-mcp) [<img alt="Install in VS Code (npx)" src="https://img.shields.io/badge/VS_Code-VS_Code?style=flat-square&label=Installa%20Contex7Arwaky%20MCP&color=0098FF">](https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%7B%22name%22%3A%22contex7-arwaky%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40upstash%2Fcontex7-arwaky-mcp%40latest%22%5D%7D)
+[![Website](https://img.shields.io/badge/Website-contex7-arwaky.com-blue)](https://contex7-arwaky.com) [![smithery badge](https://smithery.ai/badge/@rakaarwaky/contex7-arwaky-mcp)](https://smithery.ai/server/@rakaarwaky/contex7-arwaky-mcp) [<img alt="Install in VS Code (npx)" src="https://img.shields.io/badge/VS_Code-VS_Code?style=flat-square&label=Installa%20Contex7Arwaky%20MCP&color=0098FF">](https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%7B%22name%22%3A%22contex7-arwaky%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40upstash%2Fcontex7-arwaky-mcp%40latest%22%5D%7D)
 [![中文文档](https://img.shields.io/badge/docs-中文版-yellow)](./README.zh-CN.md) [![한국어 문서](https://img.shields.io/badge/docs-한국어-green)](./README.ko.md) [![Documentación en Español](https://img.shields.io/badge/docs-Español-orange)](./README.es.md) [![Documentation en Français](https://img.shields.io/badge/docs-Français-blue)](./README.fr.md) [![Documentação em Português (Brasil)](<https://img.shields.io/badge/docs-Português%20(Brasil)-purple>)](./README.pt-BR.md) [![Documentazione in italiano](https://img.shields.io/badge/docs-Italian-red)](./README.it.md)
 
 ## ❌ Senza Contex7Arwaky
@@ -40,10 +40,10 @@ Contex7Arwaky recupera esempi di codice e documentazione aggiornati direttamente
 
 ### Installazione tramite Smithery
 
-Per installare Contex7Arwaky MCP Server per Claude Desktop automaticamente tramite [Smithery](https://smithery.ai/server/@upstash/contex7-arwaky-mcp):
+Per installare Contex7Arwaky MCP Server per Claude Desktop automaticamente tramite [Smithery](https://smithery.ai/server/@rakaarwaky/contex7-arwaky-mcp):
 
 ```bash
-npx -y @smithery/cli install @upstash/contex7-arwaky-mcp --client claude
+npx -y @smithery/cli install @rakaarwaky/contex7-arwaky-mcp --client claude
 ```
 
 ### Installare in Cursor
@@ -56,7 +56,7 @@ Incollare la seguente configurazione nel file `~/.cursor/mcp.json` di Cursor è 
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp@latest"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp@latest"]
     }
   }
 }
@@ -70,7 +70,7 @@ Incollare la seguente configurazione nel file `~/.cursor/mcp.json` di Cursor è 
   "mcpServers": {
     "contex7-arwaky": {
       "command": "bunx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp@latest"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp@latest"]
     }
   }
 }
@@ -85,7 +85,7 @@ Incollare la seguente configurazione nel file `~/.cursor/mcp.json` di Cursor è 
   "mcpServers": {
     "contex7-arwaky": {
       "command": "deno",
-      "args": ["run", "--allow-net", "npm:@upstash/contex7-arwaky-mcp"]
+      "args": ["run", "--allow-net", "npm:@rakaarwaky/contex7-arwaky-mcp"]
     }
   }
 }
@@ -99,7 +99,7 @@ Aggiungi questo al tuo file di configurazione Windsurf MCP. Vedi [Windsurf MCP d
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp@latest"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp@latest"]
     }
   }
 }
@@ -115,7 +115,7 @@ Aggiungi questo al tuo file di configurazione MCP di VS Code. Vedi [VS Code MCP 
     "Contex7Arwaky": {
       "type": "stdio",
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp@latest"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp@latest"]
     }
   }
 }
@@ -129,7 +129,7 @@ Può essere installato tramite [Zed Extensions](https://zed.dev/extensions?query
     "Contex7Arwaky": {
       "source": "custom",
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
     }
   }
 }
@@ -138,7 +138,7 @@ Può essere installato tramite [Zed Extensions](https://zed.dev/extensions?query
 ### Installare in Claude Code
 Esegui questo comando. Vedi [Claude Code MCP docs](https://docs.anthropic.com/it/docs/claude-code/mcp) per ulteriori informazioni.
 ```sh
-claude mcp add --scope user contex7-arwaky -- npx -y @upstash/contex7-arwaky-mcp@latest
+claude mcp add --scope user contex7-arwaky -- npx -y @rakaarwaky/contex7-arwaky-mcp@latest
 ```
 
 ### Installare in Claude Desktop
@@ -148,7 +148,7 @@ Aggiungi questo al tuo file `claude_desktop_config.json` di Claude Desktop. Vedi
   "mcpServers": {
     "Contex7Arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp@latest"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp@latest"]
     }
   }
 }
@@ -194,7 +194,7 @@ Oppure, per un server locale:
       "type": "local",
       "command": "npx",
       "tools": ["query-docs", "resolve-library-id"],
-      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
     }
   }
 }
@@ -212,7 +212,7 @@ Se preferisci eseguire il server MCP in un contenitore Docker:
     FROM node:18-alpine
     WORKDIR /app
     # Installa l ultima versione globalmente
-    RUN npm install -g @upstash/contex7-arwaky-mcp@latest
+    RUN npm install -g @rakaarwaky/contex7-arwaky-mcp@latest
     # Esponi la porta predefinita se necessario (opzionale, dipende dall interazione del client MCP)
     # EXPOSE 3000
     # Comando predefinito per eseguire il server
@@ -275,7 +275,7 @@ pnpm run build
 
 ### Test con MCP Inspector
 ```bash
-npx -y @modelcontextprotocol/inspector npx @upstash/contex7-arwaky-mcp@latest
+npx -y @modelcontextprotocol/inspector npx @rakaarwaky/contex7-arwaky-mcp@latest
 ```
 
 ## Risoluzione dei problemi
@@ -287,7 +287,7 @@ Se vedi questo errore, prova a usare `bunx` invece di `npx`.
   "mcpServers": {
     "contex7-arwaky": {
       "command": "bunx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp@latest"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp@latest"]
     }
   }
 }
@@ -301,7 +301,7 @@ Se riscontri un errore come: `Error: Cannot find module 'uriTemplate.js'` prova 
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "--node-options=--experimental-vm-modules", "@upstash/contex7-arwaky-mcp@1.0.6"]
+      "args": ["-y", "--node-options=--experimental-vm-modules", "@rakaarwaky/contex7-arwaky-mcp@1.0.6"]
     }
   }
 }
@@ -325,7 +325,7 @@ I progetti Contex7Arwaky sono contributi della comunità e, sebbene ci impegniam
 - [Income stream surfers: "Contex7Arwaky: The New MCP Server That Will CHANGE AI Coding"](https://www.youtube.com/watch?v=PS-2Azb-C3M)
 
 ## Storico delle Stelle
-[![Star History Chart](https://api.star-history.com/svg?repos=upstash/contex7-arwaky&type=Date)](https://www.star-history.com/#upstash/contex7-arwaky&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=rakaarwaky/contex7-arwaky&type=Date)](https://www.star-history.com/#rakaarwaky/contex7-arwaky&Date)
 
 ## Licenza
 MIT

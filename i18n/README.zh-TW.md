@@ -1,10 +1,10 @@
-![Cover](https://github.com/upstash/contex7-arwaky/blob/master/public/cover.png?raw=true)
+![Cover](https://github.com/rakaarwaky/contex7-arwaky/blob/master/public/cover.png?raw=true)
 
 [![安裝 MCP 伺服器](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=contex7-arwaky&config=eyJ1cmwiOiJodHRwczovL21jcC5jb250ZXh0Ny5jb20vbWNwIn0%3D)
 
 # Contex7Arwaky MCP - 即時更新的程式碼文件，適用於任何提示
 
-[![Website](https://img.shields.io/badge/Website-contex7-arwaky.com-blue)](https://contex7-arwaky.com) [![smithery badge](https://smithery.ai/badge/@upstash/contex7-arwaky-mcp)](https://smithery.ai/server/@upstash/contex7-arwaky-mcp) [![NPM Version](https://img.shields.io/npm/v/%40upstash%2Fcontex7-arwaky-mcp?color=red)](https://www.npmjs.com/package/@upstash/contex7-arwaky-mcp) [![MIT licensed](https://img.shields.io/npm/l/%40upstash%2Fcontex7-arwaky-mcp)](./LICENSE)
+[![Website](https://img.shields.io/badge/Website-contex7-arwaky.com-blue)](https://contex7-arwaky.com) [![smithery badge](https://smithery.ai/badge/@rakaarwaky/contex7-arwaky-mcp)](https://smithery.ai/server/@rakaarwaky/contex7-arwaky-mcp) [![NPM Version](https://img.shields.io/npm/v/%40upstash%2Fcontex7-arwaky-mcp?color=red)](https://www.npmjs.com/package/@rakaarwaky/contex7-arwaky-mcp) [![MIT licensed](https://img.shields.io/npm/l/%40upstash%2Fcontex7-arwaky-mcp)](./LICENSE)
 
 [![English](https://img.shields.io/badge/docs-English-purple)](../README.md) [![简体中文](https://img.shields.io/badge/docs-简体中文-yellow)](./README.zh-CN.md) [![日本語](https://img.shields.io/badge/docs-日本語-b7003a)](./README.ja.md) [![한국어 문서](https://img.shields.io/badge/docs-한국어-green)](./README.ko.md) [![Documentación en Español](https://img.shields.io/badge/docs-Español-orange)](./README.es.md) [![Documentation en Français](https://img.shields.io/badge/docs-Français-blue)](./README.fr.md) [![Documentação em Português (Brasil)](<https://img.shields.io/badge/docs-Português%20(Brasil)-purple>)](./README.pt-BR.md) [![Documentazione in italiano](https://img.shields.io/badge/docs-Italian-red)](./README.it.md) [![Dokumentasi Bahasa Indonesia](https://img.shields.io/badge/docs-Bahasa%20Indonesia-pink)](./README.id-ID.md) [![Dokumentation auf Deutsch](https://img.shields.io/badge/docs-Deutsch-darkgreen)](./README.de.md) [![Документация на русском языке](https://img.shields.io/badge/docs-Русский-darkblue)](./README.ru.md) [![Українська документація](https://img.shields.io/badge/docs-Українська-lightblue)](./README.uk.md) [![Türkçe Doküman](https://img.shields.io/badge/docs-Türkçe-blue)](./README.tr.md) [![Arabic Documentation](https://img.shields.io/badge/docs-Arabic-white)](./README.ar.md) [![Tiếng Việt](https://img.shields.io/badge/docs-Tiếng%20Việt-red)](./README.vi.md)
 
@@ -74,7 +74,7 @@ Contex7Arwaky 將最新的程式碼範例與文件直接取得到你的 LLM 上�
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
     }
   }
 }
@@ -90,7 +90,7 @@ Contex7Arwaky 將最新的程式碼範例與文件直接取得到你的 LLM 上�
 #### Claude Code 本地伺服器連線
 
 ```sh
-claude mcp add --scope user contex7-arwaky -- npx -y @upstash/contex7-arwaky-mcp --api-key YOUR_API_KEY
+claude mcp add --scope user contex7-arwaky -- npx -y @rakaarwaky/contex7-arwaky-mcp --api-key YOUR_API_KEY
 ```
 
 #### Claude Code 遠端伺服器連線
@@ -128,7 +128,7 @@ claude mcp add --scope user --header "CONTEXT7_API_KEY: YOUR_API_KEY" --transpor
   "mcp": {
     "contex7-arwaky": {
       "type": "local",
-      "command": ["npx", "-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"],
+      "command": ["npx", "-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"],
       "enabled": true
     }
   }
@@ -238,7 +238,7 @@ Contex7Arwaky MCP 提供下列 LLM 可使用的工具：
 
 ## ⭐ Star 歷史
 
-[![Star 歷史圖表](https://api.star-history.com/svg?repos=upstash/contex7-arwaky&type=Date)](https://www.star-history.com/#upstash/contex7-arwaky&Date)
+[![Star 歷史圖表](https://api.star-history.com/svg?repos=rakaarwaky/contex7-arwaky&type=Date)](https://www.star-history.com/#rakaarwaky/contex7-arwaky&Date)
 
 ## 📄 授權
 

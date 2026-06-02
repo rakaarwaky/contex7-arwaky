@@ -1,5 +1,5 @@
 {
-  "name": "@upstash/context7-sdk",
+  "name": "@rakaarwaky/contex7-arwaky-sdk",
   "version": "0.3.0",
   "description": "JavaScript/TypeScript SDK for Context7",
   "scripts": {
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/upstash/context7.git",
+    "url": "git+https://github.com/rakaarwaky/contex7-arwaky.git",
     "directory": "packages/sdk"
   },
   "keywords": [
@@ -24,7 +24,7 @@
     "ai",
     "upstash"
   ],
-  "author": "Upstash",
+  "author": "rakaarwaky <arwaky90@gmail.com>",
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -40,9 +40,9 @@
     "dist"
   ],
   "bugs": {
-    "url": "https://github.com/upstash/context7/issues"
+    "url": "https://github.com/rakaarwaky/contex7-arwaky/issues"
   },
-  "homepage": "https://github.com/upstash/context7#readme",
+  "homepage": "https://github.com/rakaarwaky/contex7-arwaky#readme",
   "publishConfig": {
     "access": "public"
   },

@@ -1,4 +1,4 @@
-# @upstash/contex7-arwaky-sdk
+# @rakaarwaky/contex7-arwaky-sdk
 
 ## 0.3.0
 

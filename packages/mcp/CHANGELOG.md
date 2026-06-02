@@ -1,4 +1,4 @@
-# @upstash/contex7-arwaky-mcp
+# @rakaarwaky/contex7-arwaky-mcp
 
 ## 2.1.4
 

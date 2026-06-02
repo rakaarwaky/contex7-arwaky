@@ -16,7 +16,7 @@ const bedrock = createAmazonBedrock({
   apiKey: process.env.AWS_BEARER_TOKEN_BEDROCK,
 });
 
-describe("@upstash/context7-tools-ai-sdk", () => {
+describe("@rakaarwaky/contex7-arwaky-tools-ai-sdk", () => {
   describe("Tool structure", () => {
     test("resolveLibraryId() should return a tool object with correct structure", () => {
       const tool = resolveLibraryId();

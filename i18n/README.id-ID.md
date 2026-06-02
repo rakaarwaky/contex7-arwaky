@@ -1,6 +1,6 @@
 # Contex7Arwaky MCP - Dokumentasi Kode Terkini Untuk Setiap Permintaan
 
-[![Website](https://img.shields.io/badge/Website-contex7-arwaky.com-blue)](https://contex7-arwaky.com) [![smithery badge](https://smithery.ai/badge/@upstash/contex7-arwaky-mcp)](https://smithery.ai/server/@upstash/contex7-arwaky-mcp) [<img alt="Install in VS Code (npx)" src="https://img.shields.io/badge/VS_Code-VS_Code?style=flat-square&label=Install%20Contex7Arwaky%20MCP&color=0098FF">](https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%7B%22name%22%3A%22contex7-arwaky%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40upstash%2Fcontex7-arwaky-mcp%40latest%22%5D%7D)
+[![Website](https://img.shields.io/badge/Website-contex7-arwaky.com-blue)](https://contex7-arwaky.com) [![smithery badge](https://smithery.ai/badge/@rakaarwaky/contex7-arwaky-mcp)](https://smithery.ai/server/@rakaarwaky/contex7-arwaky-mcp) [<img alt="Install in VS Code (npx)" src="https://img.shields.io/badge/VS_Code-VS_Code?style=flat-square&label=Install%20Contex7Arwaky%20MCP&color=0098FF">](https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%7B%22name%22%3A%22contex7-arwaky%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40upstash%2Fcontex7-arwaky-mcp%40latest%22%5D%7D)
 [![English](https://img.shields.io/badge/docs-English-blue)](../README.md) [![繁體中文](https://img.shields.io/badge/docs-繁體中文-yellow)](./README.zh-TW.md) [![简体中文](https://img.shields.io/badge/docs-简体中文-yellow)](./README.zh-CN.md) [![日本語](https://img.shields.io/badge/docs-日本語-b7003a)](./README.ja.md) [![한국어 문서](https://img.shields.io/badge/docs-한국어-green)](./README.ko.md) [![Documentación en Español](https://img.shields.io/badge/docs-Español-orange)](./README.es.md) [![Documentation en Français](https://img.shields.io/badge/docs-Français-blue)](./README.fr.md) [![Documentação em Português (Brasil)](<https://img.shields.io/badge/docs-Português%20(Brasil)-purple>)](./README.pt-BR.md) [![Documentazione in italiano](https://img.shields.io/badge/docs-Italian-red)](./README.it.md) [![Dokumentasi Bahasa Indonesia](https://img.shields.io/badge/docs-Bahasa%20Indonesia-pink)](./README.id-ID.md) [![Dokumentation auf Deutsch](https://img.shields.io/badge/docs-Deutsch-darkgreen)](./README.de.md) [![Документация на русском языке](https://img.shields.io/badge/docs-Русский-darkblue)](./README.ru.md) [![Українська документація](https://img.shields.io/badge/docs-Українська-lightblue)](./README.uk.md) [![Türkçe Doküman](https://img.shields.io/badge/docs-Türkçe-blue)](./README.tr.md) [![Arabic Documentation](https://img.shields.io/badge/docs-Arabic-white)](./README.ar.md)
 
 ## ❌ Tanpa Contex7Arwaky
@@ -44,13 +44,13 @@ Kunjungi [panduan penambahan proyek](https://contex7-arwaky.com/docs/adding-libr
 <details>
 <summary><b>Menginstal melalui Smithery</b></summary>
 
-Untuk menginstal Contex7Arwaky MCP Server untuk klien apa pun secara otomatis melalui [Smithery](https://smithery.ai/server/@upstash/contex7-arwaky-mcp):
+Untuk menginstal Contex7Arwaky MCP Server untuk klien apa pun secara otomatis melalui [Smithery](https://smithery.ai/server/@rakaarwaky/contex7-arwaky-mcp):
 
 ```bash
-npx -y @smithery/cli@latest install @upstash/contex7-arwaky-mcp --client <NAMA_KLIEN> --key <KUNCI_SMITHERY_ANDA>
+npx -y @smithery/cli@latest install @rakaarwaky/contex7-arwaky-mcp --client <NAMA_KLIEN> --key <KUNCI_SMITHERY_ANDA>
 ```
 
-Anda dapat menemukan kunci Smithery Anda di [halaman web Smithery.ai](https://smithery.ai/server/@upstash/contex7-arwaky-mcp).
+Anda dapat menemukan kunci Smithery Anda di [halaman web Smithery.ai](https://smithery.ai/server/@rakaarwaky/contex7-arwaky-mcp).
 
 </details>
 
@@ -80,7 +80,7 @@ Menyalin konfigurasi berikut ke file `~/.cursor/mcp.json` Anda adalah pendekatan
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp"]
     }
   }
 }
@@ -94,7 +94,7 @@ Menyalin konfigurasi berikut ke file `~/.cursor/mcp.json` Anda adalah pendekatan
   "mcpServers": {
     "contex7-arwaky": {
       "command": "bunx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp"]
     }
   }
 }
@@ -110,7 +110,7 @@ Menyalin konfigurasi berikut ke file `~/.cursor/mcp.json` Anda adalah pendekatan
   "mcpServers": {
     "contex7-arwaky": {
       "command": "deno",
-      "args": ["run", "--allow-env=NO_DEPRECATION,TRACE_DEPRECATION", "--allow-net", "npm:@upstash/contex7-arwaky-mcp"]
+      "args": ["run", "--allow-env=NO_DEPRECATION,TRACE_DEPRECATION", "--allow-net", "npm:@rakaarwaky/contex7-arwaky-mcp"]
     }
   }
 }
@@ -143,7 +143,7 @@ Tambahkan ini ke file konfigurasi MCP Windsurf Anda. Lihat [dokumentasi MCP Wind
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp"]
     }
   }
 }
@@ -175,7 +175,7 @@ Untuk detail lebih lanjut, kunjungi [dokumentasi Trae](https://docs.trae.ai/ide/
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp"]
     }
   }
 }
@@ -210,7 +210,7 @@ Tambahkan ini ke file konfigurasi MCP VS Code Anda. Lihat [dokumentasi MCP VS Co
     "contex7-arwaky": {
       "type": "stdio",
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp"]
     }
   }
 }
@@ -242,7 +242,7 @@ Atau, untuk server lokal:
       "contex7-arwaky": {
         "type": "stdio",
         "command": "npx",
-        "args": ["-y", "@upstash/contex7-arwaky-mcp"]
+        "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp"]
       }
     }
   }
@@ -261,7 +261,7 @@ Dapat diinstal melalui [Ekstensi Zed](https://zed.dev/extensions?query=Contex7Ar
     "Contex7Arwaky": {
       "source": "custom",
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
     }
   }
 }
@@ -289,7 +289,7 @@ Atau, untuk server lokal:
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp"]
     }
   }
 }
@@ -305,7 +305,7 @@ Jalankan perintah ini. Lihat [dokumentasi MCP Claude Code](https://docs.anthropi
 #### Koneksi Server Lokal Claude Code
 
 ```sh
-claude mcp add --scope user contex7-arwaky -- npx -y @upstash/contex7-arwaky-mcp
+claude mcp add --scope user contex7-arwaky -- npx -y @rakaarwaky/contex7-arwaky-mcp
 ```
 
 #### Koneksi Server Remote Claude Code
@@ -324,7 +324,7 @@ Tambahkan ini ke file `claude_desktop_config.json` Claude Desktop Anda. Lihat [d
   "mcpServers": {
     "Contex7Arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp"]
     }
   }
 }
@@ -352,7 +352,7 @@ Buka halaman "Pengaturan" aplikasi, navigasikan ke "Plugin," dan masukkan JSON b
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp"]
     }
   }
 }
@@ -373,7 +373,7 @@ Jika Anda lebih suka menjalankan server MCP dalam wadah Docker:
    FROM node:18-alpine
    WORKDIR /app
    # Instal versi terbaru secara global
-   RUN npm install -g @upstash/contex7-arwaky-mcp
+   RUN npm install -g @rakaarwaky/contex7-arwaky-mcp
    # Ekspor port default jika diperlukan (opsional, tergantung pada interaksi klien MCP)
    # EXPOSE 3000
    # Perintah default untuk menjalankan server
@@ -412,9 +412,9 @@ Konfigurasi di Windows sedikit berbeda dibandingkan Linux atau macOS (_`Cline` d
 ```json
 {
   "mcpServers": {
-    "github.com/upstash/contex7-arwaky-mcp": {
+    "github.com/rakaarwaky/contex7-arwaky-mcp": {
       "command": "cmd",
-      "args": ["/c", "npx", "-y", "@upstash/contex7-arwaky-mcp@latest"],
+      "args": ["/c", "npx", "-y", "@rakaarwaky/contex7-arwaky-mcp@latest"],
       "disabled": false,
       "autoApprove": []
     }
@@ -435,7 +435,7 @@ Untuk mengonfigurasi Contex7Arwaky MCP di Augment Code, Anda dapat menggunakan a
 4. Klik tombol **+ Tambah MCP**.
 5. Masukkan perintah berikut:
    ```
-   npx -y @upstash/contex7-arwaky-mcp@latest
+   npx -y @rakaarwaky/contex7-arwaky-mcp@latest
    ```
 6. Beri nama MCP: **Contex7Arwaky**.
 7. Klik tombol **Tambah**.
@@ -453,7 +453,7 @@ Untuk mengonfigurasi Contex7Arwaky MCP di Augment Code, Anda dapat menggunakan a
     {
       "name": "contex7-arwaky",
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp"]
     }
   ]
 }
@@ -486,7 +486,7 @@ Tambahkan ini ke file konfigurasi MCP Roo Code Anda. Lihat [dokumentasi MCP Roo 
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp"]
     }
   }
 }
@@ -506,7 +506,7 @@ Untuk mengonfigurasi Contex7Arwaky MCP di Zencoder, ikuti langkah-langkah beriku
     "command": "npx",
     "args": [
         "-y",
-        "@upstash/contex7-arwaky-mcp@latest"
+        "@rakaarwaky/contex7-arwaky-mcp@latest"
     ]
 }
 ```
@@ -522,7 +522,7 @@ Tambahkan ini ke file konfigurasi Amazon Q Developer CLI Anda. Lihat [dokumentas
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp@latest"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp@latest"]
     }
   }
 }
@@ -561,7 +561,7 @@ Lihat [Dokumentasi JetBrains AI Assistant](https://www.jetbrains.com/help/ai-ass
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp"]
     }
   }
 }
@@ -583,7 +583,7 @@ Lihat [Dokumentasi Protokol Konteks Model Warp](https://docs.warp.dev/knowledge-
     "command": "npx",
     "args": [
       "-y",
-      "@upstash/contex7-arwaky-mcp"
+      "@rakaarwaky/contex7-arwaky-mcp"
     ],
     "env": {},
     "working_directory": null,
@@ -618,7 +618,7 @@ Tambahkan ini ke file konfigurasi Opencode Anda. Lihat [dokumentasi MCP Opencode
   "mcp": {
     "contex7-arwaky": {
       "type": "local",
-      "command": ["npx", "-y", "@upstash/contex7-arwaky-mcp"],
+      "command": ["npx", "-y", "@rakaarwaky/contex7-arwaky-mcp"],
       "enabled": true
     }
   }
@@ -675,7 +675,7 @@ Atau, untuk server lokal:
       "type": "local",
       "command": "npx",
       "tools": ["query-docs", "resolve-library-id"],
-      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
     }
   }
 }
@@ -697,7 +697,7 @@ Lihat [Dokumentasi Protokol Konteks Model Kiro](https://kiro.dev/docs/mcp/config
     "command": "npx",
     "args": [
       "-y",
-      "@upstash/contex7-arwaky-mcp"
+      "@rakaarwaky/contex7-arwaky-mcp"
     ],
     "env": {},
     "disabled": false,
@@ -719,7 +719,7 @@ Tambahkan konfigurasi berikut ke pengaturan server MCP OpenAI Codex Anda:
 
 ```toml
 [mcp_servers.contex7-arwaky]
-args = ["-y", "@upstash/contex7-arwaky-mcp"]
+args = ["-y", "@rakaarwaky/contex7-arwaky-mcp"]
 command = "npx"
 ```
 
@@ -748,7 +748,7 @@ Lihat [Dukungan MCP LM Studio](https://lmstudio.ai/blog/lmstudio-v0.3.17) untuk 
   "mcpServers": {
     "Contex7Arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp"]
     }
   }
 }
@@ -829,7 +829,7 @@ node packages/mcp/dist/index.js --transport http --port 8080
 <summary><b>Pengujian dengan MCP Inspector</b></summary>
 
 ```bash
-npx -y @modelcontextprotocol/inspector npx @upstash/contex7-arwaky-mcp
+npx -y @modelcontextprotocol/inspector npx @rakaarwaky/contex7-arwaky-mcp
 ```
 </details>
 
@@ -843,7 +843,7 @@ Jika Anda mengalami `ERR_MODULE_NOT_FOUND`, coba gunakan `bunx` alih-alih `npx`:
   "mcpServers": {
     "contex7-arwaky": {
       "command": "bunx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp"]
     }
   }
 }
@@ -860,7 +860,7 @@ Untuk kesalahan seperti `Error: Cannot find module 'uriTemplate.js'`, coba gunak
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "--node-options=--experimental-vm-modules", "@upstash/contex7-arwaky-mcp@1.0.6"]
+      "args": ["-y", "--node-options=--experimental-vm-modules", "@rakaarwaky/contex7-arwaky-mcp@1.0.6"]
     }
   }
 }
@@ -876,7 +876,7 @@ Gunakan bendera `--experimental-fetch` untuk melewati masalah terkait TLS:
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "--node-options=--experimental-fetch", "@upstash/contex7-arwaky-mcp"]
+      "args": ["-y", "--node-options=--experimental-fetch", "@rakaarwaky/contex7-arwaky-mcp"]
     }
   }
 }
@@ -912,7 +912,7 @@ Tetap terbaru dan bergabunglah dengan komunitas kami:
 - [Sean Kochel: "5 MCP Arwaky For Vibe Coding Glory (Just Plug-In & Go)"](https://www.youtube.com/watch?v=LqTQi8qexJM)
 
 ## ⭐ Sejarah Bintang
-[![Star History Chart](https://api.star-history.com/svg?repos=upstash/contex7-arwaky&type=Date)](https://www.star-history.com/#upstash/contex7-arwaky&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=rakaarwaky/contex7-arwaky&type=Date)](https://www.star-history.com/#rakaarwaky/contex7-arwaky&Date)
 
 ## 📄 Lisensi
 MIT

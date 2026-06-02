@@ -1,6 +1,6 @@
 # Upstash Contex7Arwaky AI SDK
 
-`@upstash/contex7-arwaky-tools-ai-sdk` provides [Vercel AI SDK](https://ai-sdk.dev/) compatible tools and agents that give your AI applications access to up to date library documentation through Contex7Arwaky.
+`@rakaarwaky/contex7-arwaky-tools-ai-sdk` provides [Vercel AI SDK](https://ai-sdk.dev/) compatible tools and agents that give your AI applications access to up to date library documentation through Contex7Arwaky.
 
 Use this package to:
 
@@ -18,7 +18,7 @@ The package provides two main tools:
 ### Install
 
 ```bash
-npm install @upstash/contex7-arwaky-tools-ai-sdk @upstash/contex7-arwaky-sdk ai zod
+npm install @rakaarwaky/contex7-arwaky-tools-ai-sdk @rakaarwaky/contex7-arwaky-sdk ai zod
 ```
 
 ### Get API Key
@@ -30,7 +30,7 @@ Get your API key from [Contex7Arwaky](https://contex7-arwaky.com)
 ### Using Tools with `generateText`
 
 ```typescript
-import { resolveLibrary, getLibraryDocs } from "@upstash/contex7-arwaky-tools-ai-sdk";
+import { resolveLibrary, getLibraryDocs } from "@rakaarwaky/contex7-arwaky-tools-ai-sdk";
 import { generateText, stepCountIs } from "ai";
 import { openai } from "@ai-sdk/openai";
 
@@ -52,7 +52,7 @@ console.log(text);
 The package provides a pre-configured agent that handles the multi-step workflow automatically:
 
 ```typescript
-import { Contex7ArwakyAgent } from "@upstash/contex7-arwaky-tools-ai-sdk";
+import { Contex7ArwakyAgent } from "@rakaarwaky/contex7-arwaky-tools-ai-sdk";
 import { anthropic } from "@ai-sdk/anthropic";
 
 const agent = new Contex7ArwakyAgent({

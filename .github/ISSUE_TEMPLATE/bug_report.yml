@@ -115,7 +115,7 @@ body:
           "mcpServers": {
             "context7": {
               "command": "npx",
-              "args": ["-y", "@upstash/context7-mcp"]
+              "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp"]
             }
           }
         }

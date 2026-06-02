@@ -16,7 +16,7 @@ This plugin provides:
 Add the marketplace and install the plugin:
 
 ```bash
-claude plugin marketplace add upstash/contex7-arwaky
+claude plugin marketplace add rakaarwaky/contex7-arwaky
 claude plugin install contex7-arwaky-plugin@contex7-arwaky-marketplace
 ```
 

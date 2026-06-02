@@ -1,6 +1,6 @@
 # Contex7Arwaky MCP - Herhangi Bir Prompt İçin Güncel Kod Belgeleri
 
-[![Website](https://img.shields.io/badge/Website-contex7-arwaky.com-blue)](https://contex7-arwaky.com) [![smithery badge](https://smithery.ai/badge/@upstash/contex7-arwaky-mcp)](https://smithery.ai/server/@upstash/contex7-arwaky-mcp) [<img alt="VS Code'da Yükle (npx)" src="https://img.shields.io/badge/VS_Code-VS_Code?style=flat-square&label=Contex7Arwaky%20MCP%20Y%C3%BCkle&color=0098FF">](https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%7B%22name%22%3A%22contex7-arwaky%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40upstash%2Fcontex7-arwaky-mcp%40latest%22%5D%7D)
+[![Website](https://img.shields.io/badge/Website-contex7-arwaky.com-blue)](https://contex7-arwaky.com) [![smithery badge](https://smithery.ai/badge/@rakaarwaky/contex7-arwaky-mcp)](https://smithery.ai/server/@rakaarwaky/contex7-arwaky-mcp) [<img alt="VS Code'da Yükle (npx)" src="https://img.shields.io/badge/VS_Code-VS_Code?style=flat-square&label=Contex7Arwaky%20MCP%20Y%C3%BCkle&color=0098FF">](https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%7B%22name%22%3A%22contex7-arwaky%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40upstash%2Fcontex7-arwaky-mcp%40latest%22%5D%7D)
 [![中文文档](https://img.shields.io/badge/docs-中文版-yellow)](./README.zh-CN.md) [![한국어 문서](https://img.shields.io/badge/docs-한국어-green)](./README.ko.md) [![Documentación en Español](https://img.shields.io/badge/docs-Español-orange)](./README.es.md) [![Documentation en Français](https://img.shields.io/badge/docs-Français-blue)](./README.fr.md) [![Documentação em Português (Brasil)](<https://img.shields.io/badge/docs-Português%20(Brasil)-purple>)](./README.pt-BR.md) [![Documentazione in italiano](https://img.shields.io/badge/docs-Italian-red)](./README.it.md) [![Dokumentasi Bahasa Indonesia](https://img.shields.io/badge/docs-Bahasa%20Indonesia-pink)](./README.id-ID.md) [![Dokumentation auf Deutsch](https://img.shields.io/badge/docs-Deutsch-darkgreen)](./README.de.md) [![Документация на русском языке](https://img.shields.io/badge/docs-Русский-darkblue)](./README.ru.md) [![Türkçe Doküman](https://img.shields.io/badge/docs-Türkçe-blue)](./README.tr.md)
 
 ## ❌ Contex7Arwaky Olmadan
@@ -40,10 +40,10 @@ Contex7Arwaky, güncel kod örneklerini ve belgelerini doğrudan LLM'inizin içe
 
 ### Smithery aracılığıyla kurulum
 
-Contex7Arwaky MCP Server'ı Claude Desktop için [Smithery](https://smithery.ai/server/@upstash/contex7-arwaky-mcp) aracılığıyla otomatik olarak kurmak için:
+Contex7Arwaky MCP Server'ı Claude Desktop için [Smithery](https://smithery.ai/server/@rakaarwaky/contex7-arwaky-mcp) aracılığıyla otomatik olarak kurmak için:
 
 ```bash
-npx -y @smithery/cli install @upstash/contex7-arwaky-mcp --client claude
+npx -y @smithery/cli install @rakaarwaky/contex7-arwaky-mcp --client claude
 ```
 
 ### Cursor'da Kurulum
@@ -56,7 +56,7 @@ Aşağıdaki yapılandırmayı Cursor `~/.cursor/mcp.json` dosyanıza yapıştı
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp@latest"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp@latest"]
     }
   }
 }
@@ -70,7 +70,7 @@ Aşağıdaki yapılandırmayı Cursor `~/.cursor/mcp.json` dosyanıza yapıştı
   "mcpServers": {
     "contex7-arwaky": {
       "command": "bunx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp@latest"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp@latest"]
     }
   }
 }
@@ -85,7 +85,7 @@ Aşağıdaki yapılandırmayı Cursor `~/.cursor/mcp.json` dosyanıza yapıştı
   "mcpServers": {
     "contex7-arwaky": {
       "command": "deno",
-      "args": ["run", "--allow-net", "npm:@upstash/contex7-arwaky-mcp"]
+      "args": ["run", "--allow-net", "npm:@rakaarwaky/contex7-arwaky-mcp"]
     }
   }
 }
@@ -99,7 +99,7 @@ Bunu Windsurf MCP yapılandırma dosyanıza ekleyin. Daha fazla bilgi için [Win
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp@latest"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp@latest"]
     }
   }
 }
@@ -115,7 +115,7 @@ Bunu VS Code MCP yapılandırma dosyanıza ekleyin. Daha fazla bilgi için [VS C
     "Contex7Arwaky": {
       "type": "stdio",
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp@latest"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp@latest"]
     }
   }
 }
@@ -129,7 +129,7 @@ Bunu VS Code MCP yapılandırma dosyanıza ekleyin. Daha fazla bilgi için [VS C
     "Contex7Arwaky": {
       "source": "custom",
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
     }
   }
 }
@@ -138,7 +138,7 @@ Bunu VS Code MCP yapılandırma dosyanıza ekleyin. Daha fazla bilgi için [VS C
 ### Claude Code'da Kurulum
 Bu komutu çalıştırın. Daha fazla bilgi için [Claude Code MCP belgelerine](https://docs.anthropic.com/en/docs/claude-code/mcp) bakabilirsiniz.
 ```sh
-claude mcp add --scope user contex7-arwaky -- npx -y @upstash/contex7-arwaky-mcp@latest
+claude mcp add --scope user contex7-arwaky -- npx -y @rakaarwaky/contex7-arwaky-mcp@latest
 ```
 
 ### Claude Desktop'ta Kurulum
@@ -148,7 +148,7 @@ Bunu Claude Desktop `claude_desktop_config.json` dosyanıza ekleyin. Daha fazla 
   "mcpServers": {
     "Contex7Arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp@latest"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp@latest"]
     }
   }
 }
@@ -180,7 +180,7 @@ MCP sunucusunu bir Docker konteynerinde çalıştırmayı tercih ederseniz:
     FROM node:18-alpine
     WORKDIR /app
     # En son sürümü global olarak yükleyin
-    RUN npm install -g @upstash/contex7-arwaky-mcp@latest
+    RUN npm install -g @rakaarwaky/contex7-arwaky-mcp@latest
     # Gerekirse varsayılan portu açın (isteğe bağlı, MCP istemci etkileşimine bağlıdır)
     # EXPOSE 3000
     # Sunucuyu çalıştırmak için varsayılan komut
@@ -243,7 +243,7 @@ pnpm run build
 
 ### MCP Inspector ile Test Etme
 ```bash
-npx -y @modelcontextprotocol/inspector npx @upstash/contex7-arwaky-mcp@latest
+npx -y @modelcontextprotocol/inspector npx @rakaarwaky/contex7-arwaky-mcp@latest
 ```
 
 ## Sorun Giderme
@@ -255,7 +255,7 @@ Bu hatayı görürseniz, `npx` yerine `bunx` kullanmayı deneyin.
   "mcpServers": {
     "contex7-arwaky": {
       "command": "bunx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp@latest"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp@latest"]
     }
   }
 }
@@ -269,7 +269,7 @@ Bu, özellikle `npx`'in paketleri düzgün şekilde yüklemediği veya çözemed
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "--node-options=--experimental-vm-modules", "@upstash/contex7-arwaky-mcp@1.0.6"]
+      "args": ["-y", "--node-options=--experimental-vm-modules", "@rakaarwaky/contex7-arwaky-mcp@1.0.6"]
     }
   }
 }
@@ -295,7 +295,7 @@ Contex7Arwaky projeleri topluluk katkılıdır ve yüksek kaliteyi korumaya çal
 - [Sean Kochel: "Vibe Kodlama İhtişamı İçin 5 MCP Sunucusu (Tak ve Çalıştır)"](https://www.youtube.com/watch?v=LqTQi8qexJM)
 
 ## Yıldız Geçmişi
-[![Yıldız Geçmişi Grafiği](https://api.star-history.com/svg?repos=upstash/contex7-arwaky&type=Date)](https://www.star-history.com/#upstash/contex7-arwaky&Date)
+[![Yıldız Geçmişi Grafiği](https://api.star-history.com/svg?repos=rakaarwaky/contex7-arwaky&type=Date)](https://www.star-history.com/#rakaarwaky/contex7-arwaky&Date)
 
 ## Lisans
 MIT

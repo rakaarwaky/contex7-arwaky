@@ -11,8 +11,8 @@
     "url": "https://upstash.com"
   },
   "homepage": "https://context7.com",
-  "documentation": "https://github.com/upstash/context7",
-  "support": "https://github.com/upstash/context7/issues",
+  "documentation": "https://github.com/rakaarwaky/contex7-arwaky",
+  "support": "https://github.com/rakaarwaky/contex7-arwaky/issues",
   "privacy_policies": ["https://upstash.com/privacy"],
   "icon": "icon.png",
   "server": {
@@ -44,6 +44,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/upstash/context7.git"
+    "url": "git+https://github.com/rakaarwaky/contex7-arwaky.git"
   }
 }

@@ -1,10 +1,10 @@
-![Cover](https://github.com/upstash/contex7-arwaky/blob/master/public/cover.png?raw=true)
+![Cover](https://github.com/rakaarwaky/contex7-arwaky/blob/master/public/cover.png?raw=true)
 
 [![Install MCP Server](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=contex7-arwaky&config=eyJ1cmwiOiJodHRwczovL21jcC5jb250ZXh0Ny5jb20vbWNwIn0%3D) [<img alt="Install in VS Code (npx)" src="https://img.shields.io/badge/Install%20in%20VS%20Code-0098FF?style=for-the-badge&logo=visualstudiocode&logoColor=white">](https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%7B%22name%22%3A%22contex7-arwaky%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40upstash%2Fcontex7-arwaky-mcp%40latest%22%5D%7D)
 
 # Contex7Arwaky MCP - Up-to-date Code Docs For Any Prompt
 
-[![Website](https://img.shields.io/badge/Website-contex7-arwaky.com-blue)](https://contex7-arwaky.com) [![smithery badge](https://smithery.ai/badge/@upstash/contex7-arwaky-mcp)](https://smithery.ai/server/@upstash/contex7-arwaky-mcp) [![NPM Version](https://img.shields.io/npm/v/%40upstash%2Fcontex7-arwaky-mcp?color=red)](https://www.npmjs.com/package/@upstash/contex7-arwaky-mcp) [![MIT licensed](https://img.shields.io/npm/l/%40upstash%2Fcontex7-arwaky-mcp)](./LICENSE)
+[![Website](https://img.shields.io/badge/Website-contex7-arwaky.com-blue)](https://contex7-arwaky.com) [![smithery badge](https://smithery.ai/badge/@rakaarwaky/contex7-arwaky-mcp)](https://smithery.ai/server/@rakaarwaky/contex7-arwaky-mcp) [![NPM Version](https://img.shields.io/npm/v/%40upstash%2Fcontex7-arwaky-mcp?color=red)](https://www.npmjs.com/package/@rakaarwaky/contex7-arwaky-mcp) [![MIT licensed](https://img.shields.io/npm/l/%40upstash%2Fcontex7-arwaky-mcp)](./LICENSE)
 
 [![繁體中文](https://img.shields.io/badge/docs-繁體中文-yellow)](./i18n/README.zh-TW.md) [![简体中文](https://img.shields.io/badge/docs-简体中文-yellow)](./i18n/README.zh-CN.md) [![日本語](https://img.shields.io/badge/docs-日本語-b7003a)](./i18n/README.ja.md) [![한국어 문서](https://img.shields.io/badge/docs-한국어-green)](./i18n/README.ko.md) [![Documentación en Español](https://img.shields.io/badge/docs-Español-orange)](./i18n/README.es.md) [![Documentation en Français](https://img.shields.io/badge/docs-Français-blue)](./i18n/README.fr.md) [![Documentação em Português (Brasil)](<https://img.shields.io/badge/docs-Português%20(Brasil)-purple>)](./i18n/README.pt-BR.md) [![Documentazione in italiano](https://img.shields.io/badge/docs-Italian-red)](./i18n/README.it.md) [![Dokumentasi Bahasa Indonesia](https://img.shields.io/badge/docs-Bahasa%20Indonesia-pink)](./i18n/README.id-ID.md) [![Dokumentation auf Deutsch](https://img.shields.io/badge/docs-Deutsch-darkgreen)](./i18n/README.de.md) [![Документация на русском языке](https://img.shields.io/badge/docs-Русский-darkblue)](./i18n/README.ru.md) [![Українська документація](https://img.shields.io/badge/docs-Українська-lightblue)](./i18n/README.uk.md) [![Türkçe Doküman](https://img.shields.io/badge/docs-Türkçe-blue)](./i18n/README.tr.md) [![Arabic Documentation](https://img.shields.io/badge/docs-Arabic-white)](./i18n/README.ar.md) [![Tiếng Việt](https://img.shields.io/badge/docs-Tiếng%20Việt-red)](./i18n/README.vi.md)
 
@@ -78,13 +78,13 @@ Check out our [project addition guide](https://contex7-arwaky.com/docs/adding-li
 <details>
 <summary><b>Installing via Smithery</b></summary>
 
-To install Contex7Arwaky MCP Server for any client automatically via [Smithery](https://smithery.ai/server/@upstash/contex7-arwaky-mcp):
+To install Contex7Arwaky MCP Server for any client automatically via [Smithery](https://smithery.ai/server/@rakaarwaky/contex7-arwaky-mcp):
 
 ```bash
-npx -y @smithery/cli@latest install @upstash/contex7-arwaky-mcp --client <CLIENT_NAME> --key <YOUR_SMITHERY_KEY>
+npx -y @smithery/cli@latest install @rakaarwaky/contex7-arwaky-mcp --client <CLIENT_NAME> --key <YOUR_SMITHERY_KEY>
 ```
 
-You can find your Smithery key in the [Smithery.ai webpage](https://smithery.ai/server/@upstash/contex7-arwaky-mcp).
+You can find your Smithery key in the [Smithery.ai webpage](https://smithery.ai/server/@rakaarwaky/contex7-arwaky-mcp).
 
 </details>
 
@@ -123,7 +123,7 @@ Pasting the following configuration into your Cursor `~/.cursor/mcp.json` file i
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
     }
   }
 }
@@ -139,7 +139,7 @@ Run this command. See [Claude Code MCP docs](https://docs.anthropic.com/en/docs/
 #### Claude Code Local Server Connection
 
 ```sh
-claude mcp add --scope user contex7-arwaky -- npx -y @upstash/contex7-arwaky-mcp --api-key YOUR_API_KEY
+claude mcp add --scope user contex7-arwaky -- npx -y @rakaarwaky/contex7-arwaky-mcp --api-key YOUR_API_KEY
 ```
 
 #### Claude Code Remote Server Connection
@@ -198,7 +198,7 @@ Add this to your Windsurf MCP config file. See [Windsurf MCP docs](https://docs.
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
     }
   }
 }
@@ -238,7 +238,7 @@ Add this to your VS Code MCP config file. See [VS Code MCP docs](https://code.vi
     "contex7-arwaky": {
       "type": "stdio",
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
     }
   }
 }
@@ -293,7 +293,7 @@ It can be installed via [Zed Extensions](https://zed.dev/extensions?query=Contex
     "Contex7Arwaky": {
       "source": "custom",
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
     }
   }
 }
@@ -315,7 +315,7 @@ To configure Contex7Arwaky MCP in Augment Code, you can use either the graphical
 5. Enter the following command:
 
    ```
-   npx -y @upstash/contex7-arwaky-mcp@latest
+   npx -y @rakaarwaky/contex7-arwaky-mcp@latest
    ```
 
 6. Name the MCP: **Contex7Arwaky**.
@@ -338,7 +338,7 @@ Once the MCP server is added, you can start using Contex7Arwaky's up-to-date cod
     {
       "name": "contex7-arwaky",
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
     }
   ]
 }
@@ -446,7 +446,7 @@ Add this to your Antigravity MCP config file. See [Antigravity MCP docs](https:/
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
     }
   }
 }
@@ -482,7 +482,7 @@ Add this to your Roo Code MCP configuration file. See [Roo Code MCP docs](https:
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
     }
   }
 }
@@ -519,7 +519,7 @@ Or, for a local server:
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
     }
   }
 }
@@ -558,7 +558,7 @@ Or, for a local server:
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
     }
   }
 }
@@ -584,7 +584,7 @@ Open Claude Desktop developer settings and edit your `claude_desktop_config.json
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
     }
   }
 }
@@ -619,7 +619,7 @@ Add this to your Opencode configuration file. See [Opencode MCP docs](https://op
   "mcp": {
     "contex7-arwaky": {
       "type": "local",
-      "command": ["npx", "-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"],
+      "command": ["npx", "-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"],
       "enabled": true
     }
   }
@@ -639,7 +639,7 @@ Add the following configuration to your OpenAI Codex MCP server settings:
 
 ```toml
 [mcp_servers.contex7-arwaky]
-args = ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
+args = ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
 command = "npx"
 startup_timeout_ms = 20_000
 ```
@@ -662,7 +662,7 @@ http_headers = { "CONTEXT7_API_KEY" = "YOUR_API_KEY" }
 > command = "C:\\Users\\yourname\\AppData\\Roaming\\npm\\npx.cmd"
 > args = [
 >   "-y",
->   "@upstash/contex7-arwaky-mcp",
+>   "@rakaarwaky/contex7-arwaky-mcp",
 >   "--api-key",
 >   "YOUR_API_KEY"
 > ]
@@ -675,7 +675,7 @@ http_headers = { "CONTEXT7_API_KEY" = "YOUR_API_KEY" }
 > ```toml
 > [mcp_servers.contex7-arwaky]
 > command = "/Users/yourname/.nvm/versions/node/v22.14.0/bin/node"
-> args = ["/Users/yourname/.nvm/versions/node/v22.14.0/lib/node_modules/@upstash/contex7-arwaky-mcp/dist/index.js",
+> args = ["/Users/yourname/.nvm/versions/node/v22.14.0/lib/node_modules/@rakaarwaky/contex7-arwaky-mcp/dist/index.js",
 >   "--transport",
 >   "stdio",
 >   "--api-key",
@@ -703,7 +703,7 @@ See [JetBrains AI Assistant Documentation](https://www.jetbrains.com/help/ai-ass
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
     }
   }
 }
@@ -729,7 +729,7 @@ See [Kiro Model Context Protocol Documentation](https://kiro.dev/docs/mcp/config
   "mcpServers": {
     "Contex7Arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"],
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"],
       "env": {},
       "disabled": false,
       "autoApprove": []
@@ -767,7 +767,7 @@ For more details, visit the [Trae documentation](https://docs.trae.ai/ide/model-
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
     }
   }
 }
@@ -787,7 +787,7 @@ Use these alternatives to run the local Contex7Arwaky MCP server with other runt
   "mcpServers": {
     "contex7-arwaky": {
       "command": "bunx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
     }
   }
 }
@@ -804,7 +804,7 @@ Use these alternatives to run the local Contex7Arwaky MCP server with other runt
         "run",
         "--allow-env=NO_DEPRECATION,TRACE_DEPRECATION",
         "--allow-net",
-        "npm:@upstash/contex7-arwaky-mcp"
+        "npm:@rakaarwaky/contex7-arwaky-mcp"
       ]
     }
   }
@@ -831,7 +831,7 @@ If you prefer to run the MCP server in a Docker container:
    WORKDIR /app
 
    # Install the latest version globally
-   RUN npm install -g @upstash/contex7-arwaky-mcp
+   RUN npm install -g @rakaarwaky/contex7-arwaky-mcp
 
    # Expose default port if needed (optional, depends on MCP client interaction)
    # EXPOSE 3000
@@ -888,9 +888,9 @@ The configuration on Windows is slightly different compared to Linux or macOS (_
 ```json
 {
   "mcpServers": {
-    "github.com/upstash/contex7-arwaky-mcp": {
+    "github.com/rakaarwaky/contex7-arwaky-mcp": {
       "command": "cmd",
-      "args": ["/c", "npx", "-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"],
+      "args": ["/c", "npx", "-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"],
       "disabled": false,
       "autoApprove": []
     }
@@ -910,7 +910,7 @@ Add this to your Amazon Q Developer CLI configuration file. See [Amazon Q Develo
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
     }
   }
 }
@@ -931,7 +931,7 @@ See [Warp Model Context Protocol Documentation](https://docs.warp.dev/knowledge-
 {
   "Contex7Arwaky": {
     "command": "npx",
-    "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"],
+    "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"],
     "env": {},
     "working_directory": null,
     "start_on_launch": true
@@ -1000,7 +1000,7 @@ Or, for a local server:
       "type": "local",
       "command": "npx",
       "tools": ["get-library-docs", "resolve-library-id"],
-      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
     }
   }
 }
@@ -1029,7 +1029,7 @@ See [LM Studio MCP Support](https://lmstudio.ai/blog/lmstudio-v0.3.17) for more 
   "mcpServers": {
     "Contex7Arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
     }
   }
 }
@@ -1071,7 +1071,7 @@ Or, for a local server:
       "contex7-arwaky": {
         "type": "stdio",
         "command": "npx",
-        "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
+        "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
       }
     }
   }
@@ -1113,7 +1113,7 @@ Add this to your Crush configuration file. See [Crush MCP docs](https://github.c
     "contex7-arwaky": {
       "type": "stdio",
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
     }
   }
 }
@@ -1131,7 +1131,7 @@ Open the "Settings" page of the app, navigate to "Plugins," and enter the follow
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
     }
   }
 }
@@ -1171,7 +1171,7 @@ Example config -
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
     }
   }
 }
@@ -1192,7 +1192,7 @@ To configure Contex7Arwaky MCP in Zencoder, follow these steps:
 ```json
 {
   "command": "npx",
-  "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
+  "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
 }
 ```
 
@@ -1217,7 +1217,7 @@ See [Qodo Gen docs](https://docs.qodo.ai/qodo-documentation/qodo-gen/qodo-gen-ch
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
     }
   }
 }
@@ -1251,7 +1251,7 @@ See [Local and Remote MCPs for Perplexity](https://www.perplexity.ai/help-center
 
 ```json
 {
-  "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"],
+  "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"],
   "command": "npx",
   "env": {}
 }
@@ -1284,7 +1284,7 @@ droid mcp add contex7-arwaky https://mcp.contex7-arwaky.com/mcp --type http
 Run this command in your terminal:
 
 ```sh
-droid mcp add contex7-arwaky "npx -y @upstash/contex7-arwaky-mcp" --env CONTEXT7_API_KEY=YOUR_API_KEY
+droid mcp add contex7-arwaky "npx -y @rakaarwaky/contex7-arwaky-mcp" --env CONTEXT7_API_KEY=YOUR_API_KEY
 ```
 
 Once configured, Contex7Arwaky tools will be available in your droid sessions. Type `/mcp` within droid to manage servers, authenticate, and view available tools.
@@ -1405,7 +1405,7 @@ CONTEXT7_API_KEY=your_api_key_here
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp"],
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp"],
       "env": {
         "CONTEXT7_API_KEY": "YOUR_API_KEY"
       }
@@ -1447,7 +1447,7 @@ To use OAuth, change the endpoint from `/mcp` to `/mcp/oauth` in your client con
 <summary><b>Testing with MCP Inspector</b></summary>
 
 ```bash
-npx -y @modelcontextprotocol/inspector npx @upstash/contex7-arwaky-mcp
+npx -y @modelcontextprotocol/inspector npx @rakaarwaky/contex7-arwaky-mcp
 ```
 
 </details>
@@ -1464,7 +1464,7 @@ If you encounter `ERR_MODULE_NOT_FOUND`, try using `bunx` instead of `npx`:
   "mcpServers": {
     "contex7-arwaky": {
       "command": "bunx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp"]
     }
   }
 }
@@ -1484,7 +1484,7 @@ For errors like `Error: Cannot find module 'uriTemplate.js'`, try the `--experim
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "--node-options=--experimental-vm-modules", "@upstash/contex7-arwaky-mcp@1.0.6"]
+      "args": ["-y", "--node-options=--experimental-vm-modules", "@rakaarwaky/contex7-arwaky-mcp@1.0.6"]
     }
   }
 }
@@ -1502,7 +1502,7 @@ Use the `--experimental-fetch` flag to bypass TLS-related problems:
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "--node-options=--experimental-fetch", "@upstash/contex7-arwaky-mcp"]
+      "args": ["-y", "--node-options=--experimental-fetch", "@rakaarwaky/contex7-arwaky-mcp"]
     }
   }
 }
@@ -1547,7 +1547,7 @@ Stay updated and join our community:
 
 ## ⭐ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=upstash/contex7-arwaky&type=Date)](https://www.star-history.com/#upstash/contex7-arwaky&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=rakaarwaky/contex7-arwaky&type=Date)](https://www.star-history.com/#rakaarwaky/contex7-arwaky&Date)
 
 ## 📄 License
 

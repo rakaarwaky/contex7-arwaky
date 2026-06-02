@@ -22,7 +22,7 @@ export interface Context7AgentConfig extends ToolLoopAgentSettings<never, ToolSe
  *
  * @example
  * ```typescript
- * import { Context7Agent } from '@upstash/context7-tools-ai-sdk';
+ * import { Context7Agent } from '@rakaarwaky/contex7-arwaky-tools-ai-sdk';
  * import { anthropic } from '@ai-sdk/anthropic';
  *
  * const agent = new Context7Agent({

@@ -311,7 +311,7 @@ async function setupAgent(
 
   let skillStatus: string;
   try {
-    const downloadData = await downloadSkill("/upstash/context7", agent.skill.name);
+    const downloadData = await downloadSkill("/rakaarwaky/contex7-arwaky", agent.skill.name);
     if (downloadData.error || downloadData.files.length === 0) {
       throw new Error(downloadData.error || "no files");
     }
@@ -366,7 +366,7 @@ async function setupMcp(agents: SetupAgent[], options: SetupOptions, scope: Scop
   log.blank();
 
   trackEvent("setup", { agents, scope, authMode: auth.mode });
-  trackEvent("install", { skills: ["/upstash/context7/context7-mcp"], ides: agents });
+  trackEvent("install", { skills: ["/rakaarwaky/contex7-arwaky/context7-mcp"], ides: agents });
 }
 
 async function setupCli(options: SetupOptions): Promise<void> {
@@ -381,7 +381,7 @@ async function setupCli(options: SetupOptions): Promise<void> {
   log.blank();
   const spinner = ora("Downloading find-docs skill...").start();
 
-  const downloadData = await downloadSkill("/upstash/context7", "find-docs");
+  const downloadData = await downloadSkill("/rakaarwaky/contex7-arwaky", "find-docs");
   if (downloadData.error || downloadData.files.length === 0) {
     spinner.fail(`Failed to download find-docs skill: ${downloadData.error || "no files"}`);
     return;
@@ -414,7 +414,7 @@ async function setupCli(options: SetupOptions): Promise<void> {
   log.blank();
 
   trackEvent("setup", { mode: "cli" });
-  trackEvent("install", { skills: ["/upstash/context7/find-docs"], ides: targets.ides });
+  trackEvent("install", { skills: ["/rakaarwaky/contex7-arwaky/find-docs"], ides: targets.ides });
 }
 
 async function setupCommand(options: SetupOptions): Promise<void> {

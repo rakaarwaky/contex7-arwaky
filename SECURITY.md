@@ -8,7 +8,7 @@ The following versions of Contex7Arwaky MCP are currently supported with securit
 | ------- | ------------------ |
 | 1.0.x   | :white_check_mark: |
 
-We recommend always using the latest version (`@upstash/contex7-arwaky-mcp@latest`) to ensure you have the most recent security patches and features.
+We recommend always using the latest version (`@rakaarwaky/contex7-arwaky-mcp@latest`) to ensure you have the most recent security patches and features.
 
 ## Reporting a Vulnerability
 
@@ -16,7 +16,7 @@ We take the security of Contex7Arwaky seriously. If you discover a security vuln
 
 ### How to Report
 
-- Please use GitHub's [private vulnerability reporting](https://github.com/upstash/contex7-arwaky/security/advisories/new) feature to submit your report
+- Please use GitHub's [private vulnerability reporting](https://github.com/rakaarwaky/contex7-arwaky/security/advisories/new) feature to submit your report
 - Alternatively, you can email security concerns to [contex7-arwaky@upstash.com](mailto:contex7-arwaky@upstash.com)
 
 ### What to Include

@@ -1,6 +1,6 @@
 # Contex7Arwaky MCP - توثيق أكواد محدث لأي أمر برمجي
 
-[![Website](https://img.shields.io/badge/Website-contex7-arwaky.com-blue)](https://contex7-arwaky.com) [![smithery badge](https://smithery.ai/badge/@upstash/contex7-arwaky-mcp)](https://smithery.ai/server/@upstash/contex7-arwaky-mcp) [<img alt="Install in VS Code (npx)" src="https://img.shields.io/badge/VS_Code-VS_Code?style=flat-square&label=Install%20Contex7Arwaky%20MCP&color=0098FF">](https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%7B%22name%22%3A%22contex7-arwaky%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40upstash%2Fcontex7-arwaky-mcp%40latest%22%5D%7D)
+[![Website](https://img.shields.io/badge/Website-contex7-arwaky.com-blue)](https://contex7-arwaky.com) [![smithery badge](https://smithery.ai/badge/@rakaarwaky/contex7-arwaky-mcp)](https://smithery.ai/server/@rakaarwaky/contex7-arwaky-mcp) [<img alt="Install in VS Code (npx)" src="https://img.shields.io/badge/VS_Code-VS_Code?style=flat-square&label=Install%20Contex7Arwaky%20MCP&color=0098FF">](https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%7B%22name%22%3A%22contex7-arwaky%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40upstash%2Fcontex7-arwaky-mcp%40latest%22%5D%7D)
 
 ## ❌ بدون Contex7Arwaky
 
@@ -42,7 +42,7 @@
 لتثبيت Contex7Arwaky MCP Server تلقائيًا لـ Claude Desktop:
 
 ```bash
-npx -y @smithery/cli install @upstash/contex7-arwaky-mcp --client claude
+npx -y @smithery/cli install @rakaarwaky/contex7-arwaky-mcp --client claude
 ```
 
 ### التثبيت في Cursor
@@ -55,7 +55,7 @@ npx -y @smithery/cli install @upstash/contex7-arwaky-mcp --client claude
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp@latest"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp@latest"]
     }
   }
 }
@@ -68,7 +68,7 @@ npx -y @smithery/cli install @upstash/contex7-arwaky-mcp --client claude
   "mcpServers": {
     "contex7-arwaky": {
       "command": "bunx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp@latest"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp@latest"]
     }
   }
 }
@@ -81,7 +81,7 @@ npx -y @smithery/cli install @upstash/contex7-arwaky-mcp --client claude
   "mcpServers": {
     "contex7-arwaky": {
       "command": "deno",
-      "args": ["run", "--allow-env", "--allow-net", "npm:@upstash/contex7-arwaky-mcp"]
+      "args": ["run", "--allow-env", "--allow-net", "npm:@rakaarwaky/contex7-arwaky-mcp"]
     }
   }
 }
@@ -94,7 +94,7 @@ npx -y @smithery/cli install @upstash/contex7-arwaky-mcp --client claude
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp@latest"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp@latest"]
     }
   }
 }
@@ -108,7 +108,7 @@ npx -y @smithery/cli install @upstash/contex7-arwaky-mcp --client claude
     "Contex7Arwaky": {
       "type": "stdio",
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp@latest"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp@latest"]
     }
   }
 }
@@ -122,7 +122,7 @@ npx -y @smithery/cli install @upstash/contex7-arwaky-mcp --client claude
     "Contex7Arwaky": {
       "source": "custom",
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp", "--api-key", "YOUR_API_KEY"]
     }
   }
 }
@@ -131,7 +131,7 @@ npx -y @smithery/cli install @upstash/contex7-arwaky-mcp --client claude
 ### التثبيت في Claude Code
 
 ```sh
-claude mcp add --scope user contex7-arwaky -- npx -y @upstash/contex7-arwaky-mcp@latest
+claude mcp add --scope user contex7-arwaky -- npx -y @rakaarwaky/contex7-arwaky-mcp@latest
 ```
 
 ### التثبيت في Claude Desktop
@@ -141,7 +141,7 @@ claude mcp add --scope user contex7-arwaky -- npx -y @upstash/contex7-arwaky-mcp
   "mcpServers": {
     "Contex7Arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp@latest"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp@latest"]
     }
   }
 }
@@ -154,7 +154,7 @@ claude mcp add --scope user contex7-arwaky -- npx -y @upstash/contex7-arwaky-mcp
   "mcpServers": {
     "contex7-arwaky": {
       "command": "npx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp@latest"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp@latest"]
     }
   }
 }
@@ -185,7 +185,7 @@ claude mcp add --scope user contex7-arwaky -- npx -y @upstash/contex7-arwaky-mcp
 ```Dockerfile
 FROM node:18-alpine
 WORKDIR /app
-RUN npm install -g @upstash/contex7-arwaky-mcp@latest
+RUN npm install -g @rakaarwaky/contex7-arwaky-mcp@latest
 CMD ["contex7-arwaky-mcp"]
 ```
 
@@ -214,9 +214,9 @@ docker build -t contex7-arwaky-mcp .
 ```json
 {
   "mcpServers": {
-    "github.com/upstash/contex7-arwaky-mcp": {
+    "github.com/rakaarwaky/contex7-arwaky-mcp": {
       "command": "cmd",
-      "args": ["/c", "npx", "-y", "@upstash/contex7-arwaky-mcp@latest"],
+      "args": ["/c", "npx", "-y", "@rakaarwaky/contex7-arwaky-mcp@latest"],
       "disabled": false,
       "autoApprove": []
     }
@@ -256,7 +256,7 @@ pnpm run build
 **الاختبار باستخدام MCP Inspector:**
 
 ```bash
-npx -y @modelcontextprotocol/inspector npx @upstash/contex7-arwaky-mcp@latest
+npx -y @modelcontextprotocol/inspector npx @rakaarwaky/contex7-arwaky-mcp@latest
 ```
 
 ## استكشاف الأخطاء
@@ -270,7 +270,7 @@ npx -y @modelcontextprotocol/inspector npx @upstash/contex7-arwaky-mcp@latest
   "mcpServers": {
     "contex7-arwaky": {
       "command": "bunx",
-      "args": ["-y", "@upstash/contex7-arwaky-mcp@latest"]
+      "args": ["-y", "@rakaarwaky/contex7-arwaky-mcp@latest"]
     }
   }
 }
@@ -283,7 +283,7 @@ npx -y @modelcontextprotocol/inspector npx @upstash/contex7-arwaky-mcp@latest
 ```json
 {
   "command": "npx",
-  "args": ["-y", "--node-options=--experimental-vm-modules", "@upstash/contex7-arwaky-mcp@1.0.6"]
+  "args": ["-y", "--node-options=--experimental-vm-modules", "@rakaarwaky/contex7-arwaky-mcp@1.0.6"]
 }
 ```
 
@@ -311,7 +311,7 @@ npx -y @modelcontextprotocol/inspector npx @upstash/contex7-arwaky-mcp@latest
 
 ## سجل النجوم
 
-[![Star History Chart](https://api.star-history.com/svg?repos=upstash/contex7-arwaky&type=Date)](https://www.star-history.com/#upstash/contex7-arwaky&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=rakaarwaky/contex7-arwaky&type=Date)](https://www.star-history.com/#rakaarwaky/contex7-arwaky&Date)
 
 ## الترخيص
 

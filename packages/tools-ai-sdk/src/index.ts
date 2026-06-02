@@ -18,4 +18,4 @@ export type {
   Library,
   Documentation,
   GetContextOptions,
-} from "@upstash/context7-sdk";
+} from "@rakaarwaky/contex7-arwaky-sdk";

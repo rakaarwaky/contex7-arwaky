@@ -2,7 +2,7 @@
 
 > ⚠️ **Work in Progress**: This SDK is currently under active development. The API is subject to change and may introduce breaking changes in future releases.
 
-`@upstash/contex7-arwaky-sdk` is an HTTP/REST based client for TypeScript, built on top of the [Contex7Arwaky API](https://contex7-arwaky.com).
+`@rakaarwaky/contex7-arwaky-sdk` is an HTTP/REST based client for TypeScript, built on top of the [Contex7Arwaky API](https://contex7-arwaky.com).
 
 ## Why Contex7Arwaky?
 
@@ -23,7 +23,7 @@ Contex7Arwaky solves this by providing up-to-date, version-specific documentatio
 ### Install
 
 ```bash
-npm install @upstash/contex7-arwaky-sdk
+npm install @rakaarwaky/contex7-arwaky-sdk
 ```
 
 ### Get API Key
@@ -33,7 +33,7 @@ Get your API key from [Contex7Arwaky](https://contex7-arwaky.com)
 ## Basic Usage
 
 ```ts
-import { Contex7Arwaky } from "@upstash/contex7-arwaky-sdk";
+import { Contex7Arwaky } from "@rakaarwaky/contex7-arwaky-sdk";
 
 const client = new Contex7Arwaky({
   apiKey: "<CONTEXT7_API_KEY>",
