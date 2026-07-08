@@ -7,6 +7,7 @@ DIST_DIR="$BASE_DIR/dist"
 MCP_DIR="$REPO_DIR/packages/mcp"
 
 echo ">>> Installing all dependencies (including dev for types)..."
+mkdir -p "$DIST_DIR"
 cp "$MCP_DIR/package.json" "$DIST_DIR/"
 npm install --prefix "$DIST_DIR"
 
@@ -17,7 +18,7 @@ fi
 
 ln -sfn "$DIST_DIR/node_modules" "$MCP_DIR/node_modules"
 cd "$MCP_DIR"
-npx tsc --outDir "$DIST_DIR" --skipLibCheck --module es2020 --moduleResolution node 2>&1 || true
+npx -p typescript tsc --outDir "$DIST_DIR" --skipLibCheck --module es2020 --moduleResolution node 2>&1
 rm -f "$MCP_DIR/node_modules"
 
 if [ -d "$MCP_DIR/node_modules.bak" ]; then
